@@ -24,7 +24,7 @@ Hud Preview Video:
 
 # ISSUES I KNOW ABOUT CURRENTLY
 
--none! woo!
+- none! woo!
 
 # HUD CREDITS (THANK YOU <3)
 
