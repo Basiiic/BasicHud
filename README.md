@@ -7,6 +7,8 @@ Hud Preview Video:
 
 # THINGS YOU SHOULD KNOW
 
+- i play tf2 at 1920 x 1080 and do not plan to add support for other resolutions (test and see if it works though!)
+
 - the "#Customizations" folder is for zeeshud menus only
 
 - the customization folder you should use is BasicHudCustomizations for hud customizations
