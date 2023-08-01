@@ -17,7 +17,7 @@ Hud Preview Video:
 
 - if sounds are ear piercing this is just tf2 being tf2 delete the sound.cache folder
 
-- you may notice the numerous clientschemes, if theres a hud there that isnt in the credits it was used at one point but none of its assets are used now
+- you may notice the numerous clientschemes from hud merger, if theres a hud there that isnt in the credits it was used at one point but none of its assets are used now
 
 
 # ISSUES I KNOW ABOUT CURRENTLY
