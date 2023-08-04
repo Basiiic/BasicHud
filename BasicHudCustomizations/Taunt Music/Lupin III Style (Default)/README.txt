@@ -1,0 +1,1 @@
+This is the default hud taunt music option, it replaces the conga and mannrobotics taunts with sosigmidgetsosig's Lupin III Soundpack taunts. (https://gamebanana.com/sounds/68066)

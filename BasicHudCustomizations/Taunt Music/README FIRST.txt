@@ -1,0 +1,2 @@
+I suggest you delete the sound.cache file in your sounds folder after applying one of these customizations, just to make sure the game doesnt play that awful noise when in a
+sv_pure 1 server after changing it

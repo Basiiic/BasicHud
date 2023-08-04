@@ -1,0 +1,1 @@
+This replaces the game_sounds_music.txt file for taunt audios with their default tf2 counterpart.
