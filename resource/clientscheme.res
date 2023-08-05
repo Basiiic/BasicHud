@@ -18,12 +18,9 @@
 // CROSSHAIRS
 //=========================================================
 #base "../scripts/crosshairs/font/Crosshairs.res"
-"#base"		"clientscheme_basicAbstractHud.res"
 
-"#base"		"clientscheme_aaBasicHudBROKEN.res"
+"#base"		"clientscheme_BasicHud.res"
 
 "#base"		"clientscheme_Hypnotize-m0rehud-master.res"
-
-"#base"		"clientscheme_flawhud.res"
 
 "#base"		"clientscheme_Deezhud.res"
