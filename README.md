@@ -7,7 +7,7 @@ Hud Preview Video:
 
 # THINGS YOU SHOULD KNOW
 
-- i play tf2 at 1920 x 1080 and do not plan to add support for other resolutions (test and see if it works though!)
+- i play tf2 at 1920 x 1080 and do not plan to add support for other resolutions if they dont work (test and see if it works though!)
 
 - the "#Customizations" folder is for zeeshud main menu only (drag enablefriends out of _enabled to disable friends list)
 
