@@ -32,6 +32,8 @@ Hud Preview Video:
 
 [M0rehud Hypnotize (Hypnootize)](https://github.com/Hypnootize/hypnotize-m0rehud) - base hud used
 
+[M0re-Techno (TechnoSL)](https://github.com/TechnoSL/m0re_techno) - tf2 icon
+
 [Zeeshud](https://github.com/Zeesastrous/ZeesHUD), [Deezhud](https://gamebanana.com/mods/449933) [(Zeesastrous](https://github.com/Zeesastrous/ZeesHUD), [Jomsr)](https://gamebanana.com/mods/449933) - 90% of menus
 
 [Middle Mann Hud (Vexcenot)](https://gamebanana.com/mods/445578) - hudplayerclass
