@@ -1,4 +1,4 @@
-# BasicHud
+# ![alt text](https://github.com/Basiiic/BasicHud/blob/main/logo.png)
 A mix of multiple huds that I love
 
 Hud Preview Video:
