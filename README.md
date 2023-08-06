@@ -3,7 +3,7 @@ A mix of multiple huds that I love
 
 Hud Preview Video:
 
-[<img src="https://i.ytimg.com/vi/vQmJbdZobYQ/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=vQmJbdZobYQ "Hud Showcase / BasicHud")
+[<img src="https://i.ytimg.com/vi/lHuEHCyn57k/maxresdefault.jpg" width="80%">](https://www.youtube.com/watch?v=lHuEHCyn57k "BasicHud Showcase")
 
 # THINGS YOU SHOULD KNOW
 
@@ -17,7 +17,7 @@ Hud Preview Video:
 
 - if you use custom ui sounds i would delete all the sounds in the sound/ui folder except for boing, meow, and byebye (these are used for specific buttons)
 
-- if sounds are ear piercing this is just tf2 being tf2 delete the sound.cache folder
+- if sounds are glitchy/loud this is just tf2 being tf2 delete the sound.cache folder
 
 # ISSUES I KNOW ABOUT CURRENTLY
 
