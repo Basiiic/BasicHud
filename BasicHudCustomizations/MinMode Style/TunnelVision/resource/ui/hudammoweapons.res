@@ -11,7 +11,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldName"									"AmmoAnchor"
 		"xpos"										"c105"
-		"xpos_minmode"								"c-5"
+		"xpos_minmode"								"c-4.5"
 		"ypos"										"c95"
 		"ypos_minmode"								"c20"
 		"zpos"										"0"
