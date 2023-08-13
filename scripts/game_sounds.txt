@@ -101,7 +101,7 @@
 	"volume"	"VOL_NORM"
 	"soundlevel"	"SNDLVL_NONE"
 	"pitch"		"PITCH_NORM"
-	"wave"		"#*vo/items/regenerate.wav"
+	"wave"		"items/regenerate.wav"
 }
 
 // ------------------------------------------------------------------------------------ //
