@@ -41,6 +41,8 @@ Hud Preview Video:
 
 [Lupin III SoundPack (sosigmidgetsosig)](https://gamebanana.com/sounds/68066) - Themes for certain things (win, lose, vote, etc)
 
+[Muted Music For End Of Round (fraiak)](https://gamebanana.com/sounds/69550) - Alt Theme for win or lose
+
 [sv_pure 1 sound utility script (fayesdiary)](https://gamebanana.com/mods/36640) - Helped me figure out how to play certain sounds on valve servers (mod is outdated rip)
 
 Persona 5 UI Sounds (Atlus) - ui sounds
