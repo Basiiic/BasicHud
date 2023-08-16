@@ -37,6 +37,8 @@ Hud Preview Video:
 
 [Middle Mann Hud (Vexcenot)](https://gamebanana.com/mods/445578) - hudplayerclass
 
+[Stylized Menu Backgrounds(ZBeats)](https://gamebanana.com/mods/462863) - Alt Menu Backgrounds
+
 [Quake Champions UI Sounds (Kenoxn, ID Software)](https://gamebanana.com/mods/456684) - chat sounds
 
 [Lupin III SoundPack (sosigmidgetsosig)](https://gamebanana.com/sounds/68066) - Themes for certain things (win, lose, vote, etc)
