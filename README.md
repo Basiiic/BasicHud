@@ -7,7 +7,7 @@ Hud Preview Video:
 
 # THINGS YOU SHOULD KNOW
 
-- if your hud is in here and you dont want it in this just lmk i'll take it out :steamhappy:
+- if your hud/assets are in here and you dont want it in this just lmk i'll take it out :steamhappy:
 
 - have music volume up ingame, sv_pure 1 sound utility script uses this volume option, having it set to 0 will make you not hear certain sounds
 
@@ -19,9 +19,9 @@ Hud Preview Video:
 
 - i suck ass at hud stuff so if something is broken sorry
 
-- if you use custom ui sounds i would delete all the sounds in the sound/ui folder except for boing, meow, and byebye (these are used for specific buttons)
+- if you use custom ui sounds i would delete all the sounds in the sound/ui folder except for boing, meow, and byebye (these are used for specific buttons the hud uses and do not override your own)
 
-- if sounds are glitchy/loud this is just tf2 being tf2 delete the sound.cache folder
+- if sounds are glitchy/loud this is just tf2 being tf2 delete the sound.cache folder (also please tell me what sound is causing it in issues so i can look into it please thanks)
 
 # ISSUES I KNOW ABOUT CURRENTLY
 
@@ -33,7 +33,7 @@ Hud Preview Video:
 
 [M0rehud Hypnotize (Hypnootize)](https://github.com/Hypnootize/hypnotize-m0rehud) - base hud used
 
-[M0re-Techno (TechnoSL)](https://github.com/TechnoSL/m0re_techno) - tf2 icon
+[M0re-Techno (TechnoSL)](https://github.com/TechnoSL/m0re_techno) - tf2 icon, some fonts in customization
 
 [Zeeshud](https://github.com/Zeesastrous/ZeesHUD), [Deezhud](https://gamebanana.com/mods/449933) [(Zeesastrous](https://github.com/Zeesastrous/ZeesHUD), [Jomsr)](https://gamebanana.com/mods/449933) - 90% of menus
 
@@ -43,11 +43,11 @@ Hud Preview Video:
 
 [Quake Champions UI Sounds (Kenoxn, ID Software)](https://gamebanana.com/mods/456684) - chat sounds
 
-[Lupin III SoundPack (sosigmidgetsosig)](https://gamebanana.com/sounds/68066) - Themes for certain things (win, lose, vote, etc)
+[Lupin III SoundPack (sosigmidgetsosig)](https://gamebanana.com/sounds/68066) - Music for certain things (win, lose, vote, etc)
 
-[Muted Music For End Of Round (fraiak)](https://gamebanana.com/sounds/69550) - Alt Theme for win or lose
+[Muted Music For End Of Round (fraiak)](https://gamebanana.com/sounds/69550) - Alt Music for win or lose
 
-[sv_pure 1 sound utility script (fayesdiary)](https://gamebanana.com/mods/36640) - Helped me figure out how to play certain sounds on valve servers (mod is outdated rip)
+[sv_pure 1 sound utility script (fayesdiary)](https://gamebanana.com/mods/36640) - Helped me figure out how to play certain audio on valve servers
 
 Persona 5 UI Sounds (Atlus) - ui sounds
 
