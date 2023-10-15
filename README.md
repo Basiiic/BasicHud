@@ -25,7 +25,7 @@ Hud Preview Video:
 
 # ISSUES I KNOW ABOUT CURRENTLY
 
-- none! woo!
+- cornered health does not show in 4:3 but im really not bothered to fix that :3
 
 # HUD CREDITS (THANK YOU <3)
 
