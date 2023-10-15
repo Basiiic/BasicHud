@@ -37,6 +37,8 @@ Hud Preview Video (slightly outdated, doesnt show newer customizations):
 
 [Zeeshud](https://github.com/Zeesastrous/ZeesHUD), [Deezhud](https://gamebanana.com/mods/449933) [(Zeesastrous](https://github.com/Zeesastrous/ZeesHUD), [Jomsr)](https://gamebanana.com/mods/449933) - 90% of menus
 
+[RenHud (LunaXCBN)](https://github.com/LunaXCBN/RenHud-V2/) - Scoreboard, Menus
+
 [Middle Mann Hud (Vexcenot)](https://gamebanana.com/mods/445578) - hudplayerclass
 
 [Stylized Menu Backgrounds (ZBeats)](https://gamebanana.com/mods/462863) - Alt Menu Backgrounds
