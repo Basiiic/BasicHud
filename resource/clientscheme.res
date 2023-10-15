@@ -26,5 +26,3 @@
 "#base"		"clientscheme_Deezhud.res"
 
 "#base"		"clientscheme_renhud.res"
-
-"#base"		"clientscheme_budhud-master.res"
