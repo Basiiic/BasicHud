@@ -24,3 +24,5 @@
 "#base"		"clientscheme_Hypnotize-m0rehud-master.res"
 
 "#base"		"clientscheme_Deezhud.res"
+
+"#base"		"clientscheme_renhud.res"
