@@ -9,6 +9,8 @@ Hud Preview Video (slightly outdated, doesnt show newer customizations):
 
 - if your hud/assets are in here and you dont want it in this just lmk i'll take it out :steamhappy:
 
+- please install fonts inside of resource/fonts and resource/scheme/fonts so the huds fonts work
+
 - have music volume up ingame, sv_pure 1 sound utility script uses this volume option, having it set to 0 will make you not hear certain sounds
 
 - i play tf2 at 1920 x 1080 and do not plan to add support for other resolutions if they dont work (test and see if it works though!)
