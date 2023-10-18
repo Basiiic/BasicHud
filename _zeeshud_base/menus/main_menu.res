@@ -10,7 +10,46 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
+		
+	"ParticlePanel"
+	{
+		"ControlName" "CTFParticlePanel"
+		"fieldName"       "TitleScreenRain"
+		"xpos"            "0"
+		"ypos"            "0"
+		"zpos"            "-10000"
+		"wide"            "f0"
+		"tall"            "f0"
+		"visible"     "1"
+		"proportionaltoparent"    "1"
 
+		"ParticleEffects"
+		{
+		"0"
+			{
+			"particle_xpos" "c0"
+			"particle_ypos" "-20"
+			"particle_scale"  "0.5" // you can change particle size here
+			"particleName"    "env_rain_512x1792" // you can change particle name here
+			"angles"  "0 0 20" // you can change particle angles here
+			"start_activated" "1"
+			"loop"    "1" // if the particle should expire
+			}
+			"1" // you can add multiple particles in the same panel
+			{
+			"particle_xpos" "c256"
+			"particle_ypos" "-20"
+			"particle_scale"  "0.5"
+			"particleName"    "env_rain_512x1792"
+			"angles"  "0 0 20"
+			"start_activated" "1"
+			"loop"    "1"
+			}
+		}
+
+	"paintbackground" "0"
+	}
+		
 		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"http://www.teamfortress.com/"
 
