@@ -71,12 +71,4 @@
 		"subimage"		"glyph_quest_icon"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
-
-	"HudName"
-	{
-		"label"	"1"
-		"command" "engine exec lucario.cfg"
-
-		"tooltip" ""
-	}
 }
