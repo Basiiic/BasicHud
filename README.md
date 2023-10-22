@@ -5,6 +5,8 @@ Hud Preview Video (slightly outdated, doesnt show latest additions and customiza
 
 [<img src="https://i.ytimg.com/vi/lHuEHCyn57k/maxresdefault.jpg" width="100%">](https://www.youtube.com/watch?v=lHuEHCyn57k "BasicHud Showcase")
 
+[IMAGE ALBUM](https://ibb.co/album/MMLtW0)
+
 # THINGS YOU SHOULD KNOW
 
 - if your hud/assets are in here and you dont want it in this just lmk i'll take it out :steamhappy:
