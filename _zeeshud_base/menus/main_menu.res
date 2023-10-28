@@ -2238,7 +2238,54 @@
 	}
 	
 	
-	
+	"cpicondummy1"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"cpicondummy1"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"11"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"0"
+			"tall"			"0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"0"
+			"enabled"		"0"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets" "1"
+			"font"			"VersionFont"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"9999"
+				"ypos"			"9999"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../hud/leaderboard_streak"
+				"scaleImage"	"1"
+			}	
+		}		
+	}	
 	
 	
 	
