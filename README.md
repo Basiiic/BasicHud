@@ -37,13 +37,15 @@ Hud Preview Video (slightly outdated, doesnt show latest additions and customiza
 
 [M0rehud Hypnotize (Hypnootize)](https://github.com/Hypnootize/hypnotize-m0rehud) - base hud used
 
-[M0re-Techno (TechnoSL)](https://github.com/TechnoSL/m0re_techno) - tf2 icon, some fonts in customization
+[M0re-Techno (TechnoSL)](https://github.com/TechnoSL/m0re_techno) - tf2 icon, some fonts in customization, TF_English
 
 [Zeeshud](https://github.com/Zeesastrous/ZeesHUD), [Deezhud](https://gamebanana.com/mods/449933) [(Zeesastrous](https://github.com/Zeesastrous/ZeesHUD), [Jomsr)](https://gamebanana.com/mods/449933) - 90% of menus
 
 [RenHud (LunaXCBN)](https://github.com/LunaXCBN/RenHud-V2/) - Menus
 
 [Skyhud (skai)](https://github.com/skaiTF/skyhud/) - scoreboard
+
+[GoogHud (GreySux)](https://github.com/GreySux/googhud/tree/main) - Killstreak
 
 [Middle Mann Hud (Vexcenot)](https://gamebanana.com/mods/445578) - hudplayerclass
 
