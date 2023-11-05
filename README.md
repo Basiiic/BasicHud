@@ -62,3 +62,8 @@ Hud Preview Video (slightly outdated, doesnt show latest additions and customiza
 Persona 5 UI Sounds (Atlus) - ui sounds
 
 Super Mario 64 DS UI Sounds (Nintendo) - "ByeBye!"
+
+# SPECIAL THANKS <3
+
+[HUD Tutorials (Raysfire)](https://www.youtube.com/playlist?list=PL5eNrB8RrXXvohogCcKNKyk9SJxa26ltz) - Very helpful tutorials for getting into hud making/editing
+[TF2 HUD Reference (JarateKing)](https://github.com/JarateKing/TF2-Hud-Reference/tree/master) - Very good for identifing files inside of the hud, with great tutorials for editing
