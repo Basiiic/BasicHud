@@ -1037,7 +1037,7 @@
 	"volume"		"1"
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_94dB"
-	"wave"			")misc/achievement_earned.wav"
+	"wave"			"#*vo/misc/achievement_earned.wav"
 }
 
 
