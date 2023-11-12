@@ -49,6 +49,8 @@ Hud Preview Video (slightly outdated, doesnt show latest additions and customiza
 
 [Middle Mann Hud (Vexcenot)](https://gamebanana.com/mods/445578) - hudplayerclass
 
+[Jahud (JarateKing)](https://github.com/JarateKing/jahud-tf2) - Main menu, alt hudplayerclass
+
 [Stylized Menu Backgrounds (ZBeats)](https://gamebanana.com/mods/462863) - Alt Menu Backgrounds
 
 [Quake Champions UI Sounds (Kenoxn, ID Software)](https://gamebanana.com/mods/456684) - chat sounds
