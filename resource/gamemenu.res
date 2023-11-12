@@ -1,9 +1,14 @@
 "GameMenu"
 {
-
-	
-	
-
+		// background
+	"mmMovingBGPanel"
+	{
+		"label"			""
+		"command"		"callvote"
+		"OnlyAtMenu"	"1"
+		"subimage" "icon_checkbox"
+		"tooltip" "#MMenu_CallVote"
+	}
 	"AchievementsButton"
 	{
 		"label"			""
