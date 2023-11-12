@@ -1,7 +1,88 @@
-#base "resource/ui/base/mainmenuoverride.res"
-
 "Resource/UI/MainMenuOverride.res"
 {
+	"mmMovingBGPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"mmMovingBGPanel"
+		"xpos"			"0"
+		"ypos"			"-40"
+		"zpos"			"-199"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"mmBG"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"mmBG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"100"
+			"wide"			"f0"
+			"tall"			"480"
+			"visible"		"1"
+			"enabled"		"1"
+			"fillcolor"		"jaBG"
+		}
+		"mmFading1"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"mmFading1"
+			"xpos"			"-300"
+			"ypos"			"0"
+			"zpos"			"101"
+			"wide"			"2000"
+			"tall"			"480"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/mm/mm1"
+			"scaleimage"		"1"
+		}
+		"mmFading2"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"mmFading2"
+			"xpos"			"-300"
+			"ypos"			"0"
+			"zpos"			"101"
+			"wide"			"2000"
+			"tall"			"480"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/mm/mm2"
+			"scaleimage"		"1"
+		}
+		"mmFading3"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"mmFading3"
+			"xpos"			"-300"
+			"ypos"			"0"
+			"zpos"			"101"
+			"wide"			"2000"
+			"tall"			"480"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/mm/mm3"
+			"scaleimage"		"1"
+		}
+		"mmFading4"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"mmFading4"
+			"xpos"			"-300"
+			"ypos"			"0"
+			"zpos"			"101"
+			"wide"			"2000"
+			"tall"			"480"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/mm/mm4"
+			"scaleimage"		"1"
+		}
+	}
+
 	MainMenuOverride
 	{
 		"fieldName"		"MainMenuOverride"
@@ -31,8 +112,8 @@
 			{
 			"particle_xpos" "c0"
 			"particle_ypos" "-20"
-			"particle_scale"  "1" // you can change particle size here
-			"particleName"    "env_rain_001" // you can change particle name here
+			"particle_scale"  "1.2" // you can change particle size here
+			"particleName"    "env_rain_512x1792" // you can change particle name here
 			"angles"  "0 0 20" // you can change particle angles here
 			"start_activated" "1"
 			"loop"    "1" // if the particle should expire
@@ -41,8 +122,8 @@
 			{
 			"particle_xpos" "c256"
 			"particle_ypos" "-20"
-			"particle_scale"  "1"
-			"particleName"    "env_rain_001"
+			"particle_scale"  "1.2"
+			"particleName"    "env_rain_512x1792"
 			"angles"  "0 0 20"
 			"start_activated" "1"
 			"loop"    "1"
@@ -159,89 +240,6 @@
 				"scaleImage"	"1"
 				"zpos"			"9"
 			}
-		}
-	}
-
-	"mmMovingBGPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"mmMovingBGPanel"
-		"xpos"			"0"
-		"ypos"			"-40"
-		"zpos"			"-199"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-
-		"mmBG"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"mmBG"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"100"
-			"wide"			"f0"
-			"tall"			"480"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"		"jaBG"
-		}
-		"mmFading1"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"mmFading1"
-			"xpos"			"-300"
-			"ypos"			"0"
-			"zpos"			"101"
-			"wide"			"2000"
-			"tall"			"480"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/mm/mm1"
-			"scaleimage"		"1"
-		}
-		"mmFading2"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"mmFading2"
-			"xpos"			"-300"
-			"ypos"			"0"
-			"zpos"			"101"
-			"wide"			"2000"
-			"tall"			"480"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/mm/mm2"
-			"scaleimage"		"1"
-		}
-		"mmFading3"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"mmFading3"
-			"xpos"			"-300"
-			"ypos"			"0"
-			"zpos"			"101"
-			"wide"			"2000"
-			"tall"			"480"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/mm/mm3"
-			"scaleimage"		"1"
-		}
-		"mmFading4"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"mmFading4"
-			"xpos"			"-300"
-			"ypos"			"0"
-			"zpos"			"101"
-			"wide"			"2000"
-			"tall"			"480"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay/thumbnails/mm/mm4"
-			"scaleimage"		"1"
 		}
 	}
 
