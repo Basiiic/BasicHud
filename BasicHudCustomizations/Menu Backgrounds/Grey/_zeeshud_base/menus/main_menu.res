@@ -29,8 +29,8 @@
 			{
 			"particle_xpos" "c0"
 			"particle_ypos" "-20"
-			"particle_scale"  "1" // you can change particle size here
-			"particleName"    "env_rain_001" // you can change particle name here
+			"particle_scale"  "1.2" // you can change particle size here
+			"particleName"    "env_rain_512x1792" // you can change particle name here
 			"angles"  "0 0 20" // you can change particle angles here
 			"start_activated" "1"
 			"loop"    "1" // if the particle should expire
@@ -39,8 +39,8 @@
 			{
 			"particle_xpos" "c256"
 			"particle_ypos" "-20"
-			"particle_scale"  "1"
-			"particleName"    "env_rain_001"
+			"particle_scale"  "1.2"
+			"particleName"    "env_rain_512x1792"
 			"angles"  "0 0 20"
 			"start_activated" "1"
 			"loop"    "1"
