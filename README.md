@@ -27,6 +27,8 @@ Hud Preview Video (slightly outdated, doesnt show latest additions and customiza
 
 - if sounds are glitchy/loud this is just tf2 being tf2 delete the sound.cache folder (also please tell me what sound is causing it in issues so i can look into it please thanks)
 
+- if you want to use custom taunt music in casual, **you need to overwrite the files in the hud itsself.** tf2 doesnt like it when theres 2 different sound script files of the same type in different mods
+
 # ISSUES I KNOW ABOUT CURRENTLY
 
 - cornered health does not show in 4:3 but im really not bothered to fix that :3
