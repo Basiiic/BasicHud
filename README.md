@@ -33,6 +33,8 @@ Hud Preview Video (slightly outdated, doesnt show latest additions and customiza
 
 - cornered health does not show in 4:3 but im really not bothered to fix that :3
 
+- Chat Sounds sometimes plays the original sound (not sure why)
+
 # HUD CREDITS (THANK YOU <3)
 
 [Hud Merger (cooolbros)](https://github.com/cooolbros/hud-merger) Tool used for easy hud merging (thank you <3)
