@@ -209,7 +209,7 @@
 	"soundlevel"  "SNDLVL_NONE"
 	"pitch"	"PITCH_NORM"
 
-	"wave"	"vo/null.mp3"
+	"wave"	"ui/chat_display_text.wav"
 }
 
 "Hud.Hint"
