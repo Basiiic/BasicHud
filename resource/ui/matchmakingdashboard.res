@@ -582,7 +582,7 @@
 			"use_proportional_insets"			"1"
 
 			"sound_depressed"					"UI/buttonclick.wav"
-			"sound_released"					"UI/buttonclickrelease.wav"
+			"sound_released"					"UI/buttonclick.wav"
 
 			"paintbackground"					"1"
 			"paintborder"						"0"
