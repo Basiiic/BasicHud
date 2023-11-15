@@ -209,7 +209,7 @@
 	"soundlevel"  "SNDLVL_NONE"
 	"pitch"	"PITCH_NORM"
 
-	"wave"	"ui/chat_display_text.wav"
+	"wave"	"#*vo/ui/chat_display_text.mp3"
 }
 
 "Hud.Hint"
@@ -3729,7 +3729,7 @@
 	"pitch"			"100"
 	"soundlevel"  	"SNDLVL_NORM"
 	
-	"wave"	"ui/chat_display_text.wav"
+	"wave"	"#*vo/ui/chat_display_text.mp3"
 }
 
 "UI.WarPaintApplyStart"
