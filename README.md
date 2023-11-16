@@ -31,9 +31,7 @@ Hud Preview Video (slightly outdated, doesnt show latest additions and customiza
 
 # ISSUES I KNOW ABOUT CURRENTLY
 
-- cornered health does not show in 4:3 but im really not bothered to fix that :3
-
-- Chat Sounds sometimes plays the original sound (not sure why)
+- cornered health does not show in 4:3 (unsupported)
 
 # HUD CREDITS (THANK YOU <3)
 
