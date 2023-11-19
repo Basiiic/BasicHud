@@ -53,6 +53,8 @@ Hud Preview Video (slightly outdated, doesnt show latest additions and customiza
 
 [Jahud (JarateKing)](https://github.com/JarateKing/jahud-tf2) - Main menu, alt hudplayerclass
 
+[Zeeshud Deluxe (Zeesatrous)](https://mega.nz/file/zQZGBADB#RrNJ-NAaE7JYJ9UsTLSrA0AaU5BD-EBB6q0ElVwAcCw) - alt hudplayerclass
+
 [Stylized Menu Backgrounds (ZBeats)](https://gamebanana.com/mods/462863) - Alt Menu Backgrounds
 
 [Quake Champions UI Sounds (Kenoxn, ID Software)](https://gamebanana.com/mods/456684) - chat sounds
