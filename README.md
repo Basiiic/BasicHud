@@ -11,27 +11,15 @@ Hud Preview Video (slightly outdated, doesnt show latest additions and customiza
 
 - if your hud/assets are in here and you dont want it in this just lmk i'll take it out :steamhappy:
 
+- only tested on windows 10 and 11, 1920 x 1080. other resolutions and OS's are unsupported.
+
 - please install fonts inside of resource/fonts and resource/scheme/fonts so the huds fonts work
-
-- have music volume up ingame, sv_pure 1 sound utility script uses this volume option, having it set to 0 will make you not hear certain sounds
-
-- i play tf2 at 1920 x 1080 and do not plan to add support for other resolutions if they dont work (test and see if it works though!)
-
-- the "#Customizations" folder is for zeeshud main menu only (drag enablefriends out of _enabled to disable friends list)
-
-- the customization folder you should use is BasicHudCustomizations for hud customizations
-
-- i suck ass at hud stuff so if something is broken sorry
-
-- if you use custom ui sounds i would delete all the sounds in the sound/ui folder except for boing, meow, and byebye (these are used for specific buttons the hud uses and do not override your own)
-
-- if sounds are glitchy/loud this is just tf2 being tf2 delete the sound.cache folder (also please tell me what sound is causing it in issues so i can look into it please thanks)
 
 - if you want to use custom taunt music in casual, **you need to overwrite the files in the hud itsself.** tf2 doesnt like it when theres 2 different sound script files of the same type in different mods
 
 # ISSUES I KNOW ABOUT CURRENTLY
 
-- cornered health does not show in 4:3 (unsupported)
+- none
 
 # HUD CREDITS (THANK YOU <3)
 
