@@ -1,3 +1,16 @@
+// Disabled by default for comp if you play that just in case, meant to be used with the custom scope customization, but if you just want a clean screen
+// while zoomed the option is still here.
+
+event ScopeRemoval
+{
+//Animate HudScope Position	"9999 9999" Linear 0.0 0.0
+}
+
+event DamagedPlayer
+{
+RunEvent ScopeRemoval 0.0
+}
+
 event MenuOpen
 {
 	StopEvent	MenuClose 0.0 
