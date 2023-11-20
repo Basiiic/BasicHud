@@ -11,7 +11,7 @@ Hud Preview Video (slightly outdated, doesnt show latest additions and customiza
 
 - if your hud/assets are in here and you dont want it in this just lmk i'll take it out :steamhappy:
 
-- only tested on windows 10 and 11, 1920 x 1080. other resolutions and OS's are unsupported.
+- only tested on windows 10 and 11, 1920 x 1080. other resolutions and OS's are unsupported if they dont work
 
 - please install fonts inside of resource/fonts and resource/scheme/fonts so the huds fonts work
 
