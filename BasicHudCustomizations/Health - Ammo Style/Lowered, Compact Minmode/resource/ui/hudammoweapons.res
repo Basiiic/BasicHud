@@ -10,7 +10,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"AmmoAnchor"
-		"xpos"										"c125"
+		"xpos"										"c160"
 		"xpos_minmode"								"c40"
 		"ypos"										"c175"
 		"ypos_minmode"								"c26"
@@ -31,7 +31,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClip"
-		"xpos"										"0"
+		"xpos"										"10"
 		"ypos"										"0"
 		"zpos"										"5"
 		"wide"										"150"
