@@ -33,13 +33,15 @@ Hud Preview Video (slightly outdated, doesnt show latest additions and customiza
 
 [RenHud (LunaXCBN)](https://github.com/LunaXCBN/RenHud-V2/) - Menus
 
-[Skyhud (skai)](https://github.com/skaiTF/skyhud/) - scoreboard
+[Skyhud (skai)](https://github.com/skaiTF/skyhud/) - scoreboard, sourcescheme
 
 [GoogHud (GreySux)](https://github.com/GreySux/googhud/tree/main) - Killstreak
 
 [Middle Mann Hud (Vexcenot)](https://gamebanana.com/mods/445578) - hudplayerclass
 
-[Jahud (JarateKing)](https://github.com/JarateKing/jahud-tf2) - Main menu, alt hudplayerclass
+[Jahud (JarateKing)](https://github.com/JarateKing/jahud-tf2) - Main menu bg, alt hudplayerclass
+
+[Basehud (JarateKing)](https://github.com/JarateKing/BaseHud) - Blur Materials <3
 
 [Zeeshud Deluxe (Zeesatrous)](https://mega.nz/file/zQZGBADB#RrNJ-NAaE7JYJ9UsTLSrA0AaU5BD-EBB6q0ElVwAcCw) - alt hudplayerclass
 
