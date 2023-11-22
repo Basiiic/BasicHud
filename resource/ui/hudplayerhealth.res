@@ -25,9 +25,9 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthAnchor"
-		"xpos"										"c-105"
+		"xpos"										"c-150"
 		"xpos_minmode"								"c-95"
-		"ypos"										"c95"
+		"ypos"										"c175"
 		"ypos_minmode"								"c45"
 		"zpos"										"0"
 		"wide"										"2"
@@ -46,7 +46,7 @@
 	{
 		"ControlName"	         				 	"ImagePanel"
 		"fieldName"		         				 	"PlayerStatusHealthBonusImage"
-		"xpos"			         				 	"c-136"
+		"xpos"			         				 	"c-9999"
 		"xpos_minmode"			         			"c-108"
 		"ypos"			         				 	"c107"
 		"ypos_minmode"			         			"c54"
@@ -141,7 +141,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PlayerStatusAnchor"
-		"xpos"										"-20"
+		"xpos"										"-50"
 		"xpos_minmode"								"-18"
 		"ypos"										"5"
 		"ypos_minmode"								"3"
