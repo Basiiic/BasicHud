@@ -45,8 +45,6 @@ Hud Preview Video (slightly outdated, doesnt show latest additions and customiza
 
 [Zeeshud Deluxe (Zeesatrous)](https://mega.nz/file/zQZGBADB#RrNJ-NAaE7JYJ9UsTLSrA0AaU5BD-EBB6q0ElVwAcCw) - alt hudplayerclass
 
-[Stylized Menu Backgrounds (ZBeats)](https://gamebanana.com/mods/462863) - Alt Menu Backgrounds
-
 [Quake Champions UI Sounds (Kenoxn, ID Software)](https://gamebanana.com/mods/456684) - chat sounds
 
 [Lupin III SoundPack (sosigmidgetsosig)](https://gamebanana.com/sounds/68066) - Music for certain things (win, lose, vote, etc)
