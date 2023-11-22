@@ -1,0 +1,10 @@
+// exec users autoexec
+exec "autoexec.cfg"
+sv_pure -1
+// blur stuff
+mat_motion_blur_strength 0
+mat_disable_bloom 1
+mat_hdr_level 0
+mat_antialias 0
+mat_colcorrection_disableentities 1
+mat_colorcorrection 0
