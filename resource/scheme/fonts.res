@@ -16,7 +16,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"8"
 				"antialias" 								"1"
 			}
@@ -25,7 +25,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"10"
 				"antialias" 								"1"
 			}
@@ -34,7 +34,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"11"
 				"antialias" 								"1"
 			}
@@ -43,7 +43,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"11"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -53,7 +53,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"12"
 				"antialias" 								"1"
 			}
@@ -62,7 +62,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"12"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -72,7 +72,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"14"
 				"antialias" 								"1"
 			}
@@ -81,7 +81,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"14"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -91,7 +91,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"16"
 				"antialias" 								"1"
 			}
@@ -100,7 +100,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"16"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -110,7 +110,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"18"
 				"antialias" 								"1"
 			}
@@ -119,7 +119,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"18"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -129,7 +129,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"18"
 				"antialias" 								"1"
 				"outline" 									"1"
@@ -149,7 +149,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"20"
 				"antialias" 								"1"
 			}
@@ -158,7 +158,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"20"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -168,7 +168,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"20"
 				"antialias" 								"1"
 				"outline" 									"1"
@@ -178,7 +178,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"22"
 				"antialias" 								"1"
 			}
@@ -187,7 +187,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"22"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -197,7 +197,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"22"
 				"antialias" 								"1"
 				"outline" 									"1"
@@ -207,7 +207,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"24"
 				"antialias" 								"1"
 			}
@@ -216,7 +216,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"24"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -226,7 +226,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"24"
 				"antialias" 								"1"
 				"outline" 									"1"
@@ -246,7 +246,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"26"
 				"antialias" 								"1"
 			}
@@ -255,7 +255,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"26"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -265,7 +265,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"28"
 				"antialias" 								"1"
 			}
@@ -274,7 +274,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"28"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -284,7 +284,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"30"
 				"antialias" 								"1"
 			}
@@ -293,7 +293,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"30"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -303,7 +303,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"30"
 				"antialias" 								"1"
 				"outline" 									"1"
@@ -323,7 +323,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"32"
 				"antialias" 								"1"
 			}
@@ -332,7 +332,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"32"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -342,7 +342,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"34"
 				"antialias" 								"1"
 			}
@@ -351,7 +351,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"36"
 				"antialias" 								"1"
 			}
@@ -360,7 +360,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"36"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -370,7 +370,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"38"
 				"antialias" 								"1"
 			}
@@ -379,7 +379,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"40"
 				"antialias" 								"1"
 			}
@@ -388,7 +388,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"42"
 				"antialias" 								"1"
 			}
@@ -397,7 +397,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"44"
 				"antialias" 								"1"
 			}
@@ -406,7 +406,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"46"
 				"antialias" 								"1"
 			}
@@ -415,7 +415,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"46"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -425,7 +425,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"48"
 				"antialias" 								"1"
 			}
@@ -434,7 +434,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"48"
 				"antialias" 								"1"
 				"dropshadow" 								"1"
@@ -444,7 +444,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"50"
 				"antialias" 								"1"
 			}
@@ -453,7 +453,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"52"
 				"antialias" 								"1"
 			}
@@ -462,7 +462,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"54"
 				"antialias" 								"1"
 			}
@@ -471,7 +471,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"56"
 				"antialias" 								"1"
 			}
@@ -480,7 +480,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"58"
 				"antialias" 								"1"
 			}
@@ -489,7 +489,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"60"
 				"antialias" 								"1"
 			}
@@ -498,7 +498,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"62"
 				"antialias" 								"1"
 			}
@@ -507,7 +507,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"64"
 				"antialias" 								"1"
 			}
@@ -516,7 +516,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"66"
 				"antialias" 								"1"
 			}
@@ -525,7 +525,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"68"
 				"antialias" 								"1"
 			}
@@ -534,7 +534,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"70"
 				"antialias" 								"1"
 			}
@@ -543,56 +543,56 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"72"
 				"yres"										"400 500"
 				"antialias"									"1"
 			}
 			"2"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"88"
 				"yres"										"501 600"
 				"antialias"									"1"
 			}
 			"3"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"95"
 				"yres"										"601 679"
 				"antialias"									"1"
 			}
 			"4"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"103"
 				"yres"										"680 720"
 				"antialias"									"1"
 			}
 			"5"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"110"
 				"yres"										"721 799"
 				"antialias"									"1"
 			}
 			"6"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"117"
 				"yres"										"800 899"
 				"antialias"									"1"
 			}
 			"7"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"123"
 				"yres"										"900 1030"
 				"antialias"									"1"
 			}
 			"8"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"130"
 				"yres"										"1031 1199"
 				"antialias"									"1"
@@ -1276,7 +1276,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"24"
 				"range"										"0x0000 0x017F"
 				"antialias" 								"1"
@@ -1286,7 +1286,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"24"
 				"italic"									"1"
 				"range"										"0x0000 0x017F"
@@ -1297,7 +1297,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"24"
 				"range"										"0x0000 0x017F"
 				"antialias" 								"1"
@@ -1307,7 +1307,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"24"
 				"italic"									"1"
 				"range"										"0x0000 0x017F"
@@ -1318,7 +1318,7 @@
 		{
 			"1"
 			{
-				"name"										"Surface-Medium"
+				"name"										"Quicksand SemiBold"
 				"tall"										"16"
 				"range"										"0x0000 0x017F"
 				"antialias" 								"1"
@@ -2740,8 +2740,8 @@
 		}
 		"10"
 		{
-			"font"				"resource/scheme/fonts/surface_medium.otf"
-			"name"				"Surface-Medium"
+			"font"				"resource/scheme/fonts/Quicksand SemiBold.ttf"
+			"name"				"Quicksand SemiBold"
 		}
 		"11"
 		{
