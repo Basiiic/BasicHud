@@ -3,7 +3,7 @@ A mix of multiple huds that I love
 
 Hud Preview Video (slightly outdated, doesnt show latest additions and customizations):
 
-[<img src="https://i.ytimg.com/vi/lHuEHCyn57k/maxresdefault.jpg" width="100%">](https://www.youtube.com/watch?v=lHuEHCyn57k "BasicHud Showcase")
+[<img src="https://i.ytimg.com/vi/eW-vjL588Lg/maxresdefault.jpg" width="100%">](https://www.youtube.com/watch?v=eW-vjL588Lg "BasicHud Showcase")
 
 [IMAGE ALBUM](https://ibb.co/album/MMLtW0)
 
