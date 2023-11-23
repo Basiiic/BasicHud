@@ -1,7 +1,7 @@
 # ![alt text](https://github.com/Basiiic/BasicHud/blob/main/logo.png)
 A mix of multiple huds that I love
 
-Hud Preview Video (slightly outdated, doesnt show latest additions and customizations):
+Hud Showcase Video:
 
 [<img src="https://i.ytimg.com/vi/eW-vjL588Lg/maxresdefault.jpg" width="100%">](https://www.youtube.com/watch?v=eW-vjL588Lg "BasicHud Showcase")
 
