@@ -691,44 +691,43 @@
 		"tall"	 									"128"
 	}
 
-	"HudVoiceSelfStatus"
+	HudVoiceSelfStatus
 	{
-		"fieldName" 								"HudVoiceSelfStatus"
-		"visible" 									"1"
-		"enabled" 									"1"
-		"xpos" 										"r42"
-		"ypos" 										"355"
-		"wide" 										"32"
-		"tall" 										"32"
+		"fieldName" 		"HudVoiceSelfStatus"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"r39"
+		"ypos"				"r200"
+		"wide"				"32"
+		"tall"				"32"
 	}
 
-	"HudVoiceStatus"
+	HudVoiceStatus
 	{
-		"fieldName" 								"HudVoiceStatus"
-		"visible" 									"1"
-		"enabled" 									"1"
-		"xpos" 										"r145"
-		"ypos" 										"0"
-		"wide" 										"145"
-		"tall" 										"400"
-
-		"item_wide"									"135"
-
-		"show_avatar"								"1"
-
-		"show_dead_icon"							"1"
-		"dead_xpos"									"1"
-		"dead_ypos"									"0"
-		"dead_wide"									"16"
-		"dead_tall"									"16"
-
-		"show_voice_icon"							"1"
-		"icon_ypos"									"0"
-		"icon_xpos"									"15"
-		"icon_tall"									"16"
-		"icon_wide"									"16"
-
-		"text_xpos"									"33"
+		"fieldName" 		"HudVoiceStatus"
+		"visible" 			"1"
+		"enabled" 			"1"
+		"xpos" 				"r145"
+		"ypos" 				"0"
+		"wide" 				"145"
+		"tall" 				"340"
+		"item_wide"			"120"
+		"show_avatar"		"1"
+		"avatar_ypos"		"0"
+		"avatar_xpos"		"108"
+		"avatar_wide"		"17"
+		"avatar_tall"		"17"
+		"show_dead_icon"	"1"
+		"dead_xpos"			"118"
+		"dead_ypos"			"0"
+		"dead_wide"			"16"
+		"dead_tall"			"16"
+		"show_voice_icon"	"1"
+		"icon_ypos"			"0"
+		"icon_xpos"			"3"
+		"icon_tall"			"16"
+		"icon_wide"			"16"
+		"text_xpos"			"25"
 	}
 
 	"HudHintDisplay"
