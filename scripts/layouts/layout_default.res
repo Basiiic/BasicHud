@@ -714,7 +714,7 @@
 
 		"item_wide"									"135"
 
-		"show_avatar"								"0"
+		"show_avatar"								"1"
 
 		"show_dead_icon"							"1"
 		"dead_xpos"									"1"
