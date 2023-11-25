@@ -144,7 +144,7 @@
 	{
 		"108"
 		{
-			"font"		"resource/fonts/CIKANDEI.ttf"
+			"font"		"resource/scheme/fonts/CIKANDEI.ttf"
 			"name"		"CIKANDEI"
 		}
 	}

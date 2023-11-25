@@ -1170,7 +1170,7 @@
 	{
 		"101"
 		{
-			"font"		"resource/fonts/Futura PT Bold.otf"
+			"font"		"resource/scheme/fonts/Futura PT Bold.otf"
 			"name"		"Futura PT Bold"
 			"turkish"
 			{
@@ -1231,27 +1231,27 @@
 		}
 		"102"
 		{
-			"font"		"resource/fonts/Icons.otf"
+			"font"		"resource/scheme/fonts/Icons.otf"
 			"name"		"FlawHUDIcons"
 		}
 		"103"
 		{
-			"font"		"resource/fonts/dogicabold.ttf"
+			"font"		"resource/scheme/fonts/dogicabold.ttf"
 			"name"		"Dogica bold"
 		}
 		"104"
 		{
-			"font"		"resource/fonts/coolvetica condensed rg.otf"
+			"font"		"resource/scheme/fonts/coolvetica condensed rg.otf"
 			"name"		"CoolveticaCondensedRg-Regular"
 		}
 		"105"
 		{
-			"font"		"resource/fonts/coolvetica rg.otf"
+			"font"		"resource/scheme/fonts/coolvetica rg.otf"
 			"name"		"CoolveticaRg-Regular"
 		}
 		"106"
 		{
-			"font"		"resource/fonts/Futura PT Bold.otf"
+			"font"		"resource/scheme/fonts/Futura PT Bold.otf"
 			"name"		"Futura PT Bold"
 		}
 	}
