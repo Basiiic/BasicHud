@@ -615,7 +615,87 @@
 				"antialias" 								"1"
 			}
 		}
-
+		"Symbols10"
+		{
+			"1"
+			{
+				"name"										"m0rehud icons V9"
+				"tall"										"10"
+				"antialias"									"1"
+			}
+		}
+		"Symbols12"
+		{
+			"1"
+			{
+				"name"										"m0rehud icons V9"
+				"tall"										"12"
+				"antialias"									"1"
+			}
+		}
+		"Symbols14"
+		{
+			"1"
+			{
+				"name"										"m0rehud icons V9"
+				"tall"										"14"
+				"antialias"									"1"
+			}
+		}
+		"Symbols16"
+		{
+			"1"
+			{
+				"name"										"m0rehud icons V9"
+				"tall"										"16"
+				"antialias"									"1"
+			}
+		}
+		"Symbols18"
+		{
+			"1"
+			{
+				"name"										"m0rehud icons V9"
+				"tall"										"18"
+				"antialias"									"1"
+			}
+		}
+		"Symbols20"
+		{
+			"1"
+			{
+				"name"										"m0rehud icons V9"
+				"tall"										"20"
+				"antialias"									"1"
+			}
+		}
+		"Symbols22"
+		{
+			"1"
+			{
+				"name"										"m0rehud icons V9"
+				"tall"										"22"
+				"antialias"									"1"
+			}
+		}
+		"Symbols24"
+		{
+			"1"
+			{
+				"name"										"m0rehud icons V9"
+				"tall"										"24"
+				"antialias"									"1"
+			}
+		}
+		"Symbols32"
+		{
+			"1"
+			{
+				"name"										"m0rehud icons V9"
+				"tall"										"32"
+				"antialias"									"1"
+			}
+		}
 		"BlocksSharp64"
 		{
 			"1"
