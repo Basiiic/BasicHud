@@ -1,5 +1,4 @@
-// Disabled by default for comp if you play that just in case, meant to be used with the custom scope customization, but if you just want a clean screen
-// while zoomed the option is still here.
+// Disabled by default for comp if you play that just in case, but if you just want a clean screen while zoomed the option is still here.
 
 event ScopeRemoval
 {
