@@ -57,7 +57,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Product12"
 		"labelText"		"#Store_Maps_Title"
 		"textAlignment"	"north-west"
 		"xpos"			"c-292"
@@ -75,7 +75,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubTitleLabel"
-		"font"			"FontStoreOriginalPrice"
+		"font"			"Product8"
 		"labelText"		"#Store_Maps_SubTitle"
 		"textAlignment"	"south-west"
 		"xpos"			"c-292"
