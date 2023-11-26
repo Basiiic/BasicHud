@@ -409,6 +409,26 @@
 		"show_progress"	"0"
 	}
 
+	"BottomBar"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"BottomBar"
+		"xpos"				"0"
+		"ypos"				"r60"
+		"zpos"				"0"
+		"wide"				"f0"
+		"tall"				"140"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"			"replay/thumbnails/box_3_n"
+		"scaleImage"	"1"
+		
+		"src_corner_height"		"23"
+		"src_corner_width"		"23"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"10"
+	}
+	
 	"CycleRankTypeButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -661,7 +681,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"WatchStreamButton"
 		"xpos"			"r75"
-		"ypos"			"r95"
+		"ypos"			"r80"
 		"zpos"			"8"
 		"wide"			"20"
 		"tall"			"20"
@@ -711,7 +731,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
 		"xpos"			"r50"
-		"ypos"			"r95"
+		"ypos"			"r80"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -756,7 +776,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"r28"
-		"ypos"			"r93"
+		"ypos"			"r80"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -1102,8 +1122,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HudName"
-		"xpos"			"r138"
-		"ypos"			"r72"
+		"xpos"			"r147"
+		"ypos"			"r90"
 		"zpos"			"1"
 		"wide"			"135"
 		"tall"			"10"
@@ -1985,46 +2005,6 @@
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 		
 	}
-	
-	"ItsASecretToEverybody"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ItsASecretToEverybody"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"77777"
-		"wide"			"f0"
-		"tall"			"480"
-		"PaintBackgroundType"	"0"
-		"paintbackground"		"1"
-		"border"				"NoBorder"
-		"bgcolor_override"		"0 0 0 255"
-		"visible"				"1"
-		
-		"pin_to_sibling" "SupportersAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	"ItsASecretToEverybody2"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ItsASecretToEverybody2"
-		"labeltext"		"If you're seeing this message, post an issue on GitHub. Press ~ and type quit to exit TF2. You should uninstall the HUD."
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"77778"
-		"textAlignment"	"center"
-		"wide"			"f0"
-		"tall"			"480"
-		"fgcolor_override"	"255 0 90 255"
-		"visible"				"1"
-		
-		"pin_to_sibling" "SupportersAnchor"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
-	}
-	
-	
 	
 	"SteamWorkshopButton"
 	{
