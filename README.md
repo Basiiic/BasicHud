@@ -23,8 +23,6 @@ Hud Showcase Video:
 
 # HUD CREDITS (THANK YOU <3)
 
-[Hud Merger (cooolbros)](https://github.com/cooolbros/hud-merger) Tool used for easy hud merging (thank you <3)
-
 [M0rehud Hypnotize (Hypnootize)](https://github.com/Hypnootize/hypnotize-m0rehud) - base hud used
 
 [M0re-Techno (TechnoSL)](https://github.com/TechnoSL/m0re_techno) - tf2 icon, some fonts in customization, TF_English
@@ -60,3 +58,5 @@ Persona 5 UI Sounds (Atlus) - ui sounds
 [HUD Tutorials (Raysfire)](https://www.youtube.com/playlist?list=PL5eNrB8RrXXvohogCcKNKyk9SJxa26ltz) - Very helpful tutorials for getting into hud making/editing
 
 [TF2 HUD Reference (JarateKing)](https://github.com/JarateKing/TF2-Hud-Reference/tree/master) - Very good for identifing files inside of the hud, with great tutorials for editing
+
+[Hud Merger (cooolbros)](https://github.com/cooolbros/hud-merger) Tool used for easy hud merging (thank you <3)
