@@ -11,6 +11,7 @@
 		"wide"	 		          					"260"
 		"tall"	 		         					"120"
 		"PaintBackgroundType"						"2"
+		"bgcolor_override"							"0 0 0 255"
 	}
 
 	"ChatInputLine"
@@ -30,7 +31,7 @@
 	{
 		"ControlName"		      					"Button"
 		"fieldName"		        					"ChatFiltersButton"
-		"xpos"			          					"160"
+		"xpos"			          					"10"
 		"ypos"			          					"0"
 		"wide"			          					"30"
 		"tall"			          					"5"
