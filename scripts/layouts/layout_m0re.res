@@ -174,12 +174,12 @@
 
 	"HudDeathNotice"
 	{
-		"xpos"	 									"r640"
-		"ypos"	 									"16"
+		"xpos"	 									"r624"
+		"ypos"	 									"10"
 		"wide"	 									"628"
 		"tall"	 									"468"
 
-		"MaxDeathNotices" 							"12"
+		"MaxDeathNotices" 							"7"
 		"IconScale"	  								"0.35"
 		"LineHeight"	  							"12"
 		"LineSpacing"	 							"0"
@@ -193,8 +193,8 @@
 		"IconColor"									"White"
 		"LocalPlayerColor"							"HUDBlack"
 
-		"BaseBackgroundColor"						"0 0 0 100"
-		"LocalBackgroundColor"						"240 240 240 200"
+		"BaseBackgroundColor"						"15 15 15 0"
+		"LocalBackgroundColor"						"255 255 255 255"
 	}
 
 	"HudCloseCaption"
