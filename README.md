@@ -13,9 +13,9 @@ Hud Showcase Video:
 
 - only tested on windows 10 and 11, 1920 x 1080. other resolutions and OS's are unsupported if they dont work
 
-- please install fonts inside of resource/fonts and resource/scheme/fonts so the huds fonts work
+- please install all fonts inside of resource/scheme/fonts if hud elements have broken text
 
-- if you want to use custom taunt music in casual, **you need to overwrite the files in the hud itsself.** tf2 doesnt like it when theres 2 different sound script files of the same type in different mods
+- if you want to use custom taunt music in casual, **you need to overwrite the files in the hud itsself.** tf2 doesnt like it when theres 2 different sound script files of the same type in different mod folders
 
 # ISSUES I KNOW ABOUT CURRENTLY
 
