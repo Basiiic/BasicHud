@@ -17,17 +17,17 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"60"
-		"ypos"			"r138"
+		
+		"xpos"			"9999"
+		"ypos"			"r140"
 		"zpos"			"2"
-		"wide"			"90"
-		"wide_minbad"	"37"
-		"tall"			"90"
-		"tall_minbad"	"37"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"1"
+		"tall"			"1"
+
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"../hud/class_scoutred"
-		"scaleImage"	"1"	
+		"scaleImage"	"1"
 	}
 	"PlayerStatusSpyImage"
 	{
