@@ -27,7 +27,7 @@
 		"fieldName"									"HealthAnchor"
 		"xpos"										"c-150"
 		"xpos_minmode"								"c-40"
-		"ypos"										"c175"
+		"ypos"										"c155"
 		"ypos_minmode"								"c26"
 		"zpos"										"0"
 		"wide"										"2"

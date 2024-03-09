@@ -12,7 +12,7 @@
 		"fieldName"									"AmmoAnchor"
 		"xpos"										"c160"
 		"xpos_minmode"								"c40"
-		"ypos"										"c175"
+		"ypos"										"c155"
 		"ypos_minmode"								"c26"
 		"zpos"										"0"
 		"wide"										"5"	
