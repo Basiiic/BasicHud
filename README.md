@@ -51,6 +51,8 @@ Hud Showcase Video:
 
 [sv_pure 1 sound utility script (fayesdiary)](https://gamebanana.com/mods/36640) - Helped me figure out how to play certain audio on valve servers
 
+[Bibata Cursor (ful1e5)](https://www.bibata.live/) - Software Cursor
+
 Persona 5 UI Sounds (Atlus) - ui sounds
 
 # SPECIAL THANKS <3
