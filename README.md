@@ -17,6 +17,8 @@ Hud Showcase Video:
 
 - if you want to use custom taunt music in casual, **you need to overwrite the files in the hud itsself.** tf2 doesnt like it when theres 2 different sound script files of the same type in different mod folders
 
+- please put cl_software_cursor 1 into your autoexec to enable software cursors <3
+
 # ISSUES I KNOW ABOUT CURRENTLY
 
 - none
