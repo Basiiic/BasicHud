@@ -9,7 +9,7 @@ Hud Showcase Video:
 
 # THINGS YOU SHOULD KNOW
 
-- if your hud/assets are in here and you dont want it in this just lmk i'll take it out :steamhappy:
+- if your hud/assets are in here and you dont want it in this just lmk on twitter dms or somewhere and i'll take it out :steamhappy:
 
 - only tested on windows 10 and 11, 1920 x 1080. other resolutions and OS's are unsupported if they dont work
 
