@@ -1,7 +1,7 @@
 # ![alt text](https://github.com/Basiiic/BasicHud/blob/main/logo.png)
 A mix of multiple huds that I love
 
-Hud Showcase Video:
+Hud Showcase Video (Slightly Outdated):
 
 [<img src="https://i.ytimg.com/vi/-ffYAmXvyM4/maxresdefault.jpg" width="100%">](https://www.youtube.com/watch?v=-ffYAmXvyM4 "BasicHud Showcase")
 
@@ -9,13 +9,11 @@ Hud Showcase Video:
 
 # THINGS YOU SHOULD KNOW
 
-- if your hud/assets are in here and you dont want it in this just lmk on twitter dms or somewhere and i'll take it out :steamhappy:
+- if your hud/assets are in here and you dont want it in this just lmk somewhere and i'll take it out :steamhappy:
 
 - only tested on windows 10 and 11, 1920 x 1080. other resolutions and OS's are unsupported if they dont work
 
 - please install all fonts inside of resource/scheme/fonts if hud elements have broken text
-
-- if you want to use custom taunt music in casual, **you need to overwrite the files in the hud itsself.** tf2 doesnt like it when theres 2 different sound script files of the same type in different mod folders
 
 - please put cl_software_cursor 1 into your autoexec to enable software cursors <3
 
@@ -35,9 +33,11 @@ Hud Showcase Video:
 
 [Skyhud (skai)](https://github.com/skaiTF/skyhud/) - scoreboard, sourcescheme
 
-[GoogHud (GreySux)](https://github.com/GreySux/googhud/tree/main) - Killstreak
+[GoogHud (GreySux)](https://github.com/GreySux/googhud/tree/main) - Killstreak icon
 
 [Middle Mann Hud (Vexcenot)](https://gamebanana.com/mods/445578) - hudplayerclass
+
+[WeirdcoreHUD (Tomma)](https://github.com/zTomma/WeirdcoreHUD) - Class Select base
 
 [Jahud (JarateKing)](https://github.com/JarateKing/jahud-tf2) - Main menu bg, alt hudplayerclass
 
@@ -45,11 +45,7 @@ Hud Showcase Video:
 
 [Zeeshud Deluxe (Zeesatrous)](https://mega.nz/file/zQZGBADB#RrNJ-NAaE7JYJ9UsTLSrA0AaU5BD-EBB6q0ElVwAcCw) - alt hudplayerclass
 
-[Quake Champions UI Sounds (Kenoxn, ID Software)](https://gamebanana.com/mods/456684) - chat sounds
-
 [Lupin III SoundPack (sosigmidgetsosig)](https://gamebanana.com/sounds/68066) - Music for certain things (win, lose, vote, etc)
-
-[Muted Music For End Of Round (fraiak)](https://gamebanana.com/sounds/69550) - Alt Music for win or lose
 
 [sv_pure 1 sound utility script (fayesdiary)](https://gamebanana.com/mods/36640) - Helped me figure out how to play certain audio on valve servers
 

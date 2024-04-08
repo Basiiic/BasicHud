@@ -1,0 +1,28 @@
+"MatchMaking.RoundStartCasual"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		".4"
+	"soundlevel"  	"SNDLVL_NONE"
+	"pitch"			"PITCH_NORM"
+	"wave"			"ui/mm_round_start_casual.wav"
+}
+
+"Chat.DisplayText"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100"
+	"soundlevel"  	"SNDLVL_NONE"
+	
+	"wave"	"vo/ui/chat_display_text.wav"
+}
+
+"HudChat.Message"
+{
+	"channel"	"CHAN_STREAM"
+	"volume"	"VOL_NORM"
+	"soundlevel"  "SNDLVL_NONE"
+	"pitch"	"PITCH_NORM"
+
+	"wave"	"vo/ui/chat_display_text.wav"
+}

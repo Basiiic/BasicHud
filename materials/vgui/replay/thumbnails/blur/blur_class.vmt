@@ -11,6 +11,6 @@
 	
 	<dx90
 	{
-		 	"$fallbackmaterial" "vgui/replay/thumbnails/class/class_bg"
+		 	"$fallbackmaterial" "vgui/replay/thumbnails/fallback"
 	}
 }

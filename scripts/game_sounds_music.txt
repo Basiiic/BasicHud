@@ -287,7 +287,7 @@
 	 "channel" 			"CHAN_STATIC"
 	 "soundlevel" 			"SNDLVL_75dB"
 	 "volume"		    "1.0"
-	 "wave" 			  ")*vo/music/conga_sketch_167bpm_01-04.wav"
+	 "wave" 			  ")*music/conga_sketch_167bpm_01-04.wav"
 }
 
 "music.carousel_of_curses"
@@ -330,5 +330,5 @@
 	 "channel" 			"CHAN_STATIC"
 	 "soundlevel" 			"SNDLVL_75dB"
 	 "volume"		    "1.0"
-	 "wave" 			  ")*vo/music/mannrobics.wav"
+	 "wave" 			  ")*music/mannrobics.wav"
 }

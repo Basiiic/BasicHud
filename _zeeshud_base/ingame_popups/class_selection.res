@@ -15,15 +15,15 @@
 		"tabPosition"	"0"
 	}
 
-	"BG"
+	"BLURBG"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"BG"
-		"xpos"			"-40"
+		"fieldName"		"BLURBG"
+		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"900"
-		"tall"			"480"
+		"zpos"			"-10"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
@@ -31,13 +31,29 @@
 		"teambg_3"		"replay/thumbnails/blur/blur_class"
 	}
 	
+	"BG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"BG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"teambg_2"		"/replay/thumbnails/bgs/classselection_red"
+		"teambg_3"		"/replay/thumbnails/bgs/classselection_blue"
+	}
+
 	"ClassLabel"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BG"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"2"
+		"xpos"			"325"
+		"ypos"			"0"
+		"zpos"			"20"
 		"wide"			"200"
 		"tall"			"100"
 		"visible"		"1"
@@ -46,7 +62,7 @@
 		"image"		"replay/thumbnails/class/label"
 	}
 	
-	//what's this for
+	
 	"SysMenu"
 	{
 		"ControlName"	"Menu"
@@ -62,32 +78,15 @@
 		"tabPosition"	"0"
 	}
 
-	"SelectClassLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SelectTeamLabel"
-		"xpos"			"0"
-		"ypos"			"15"
-		"zpos"			"6"
-		"wide"			"255"
-		"tall"			"30"
-		"labelText"		"#TF_SelectAClass"
-		"textAlignment"	"center"
-		"font"			"Cerbetica32"
-		"visible"		"0"
-		"enabled"		"0"
-		"fgcolor"		"TanLight"
-	}
-
 	"scout"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"scout"
-		"xpos"				"c-225"
-		"ypos"				"r100"
-		"zpos"				"6"
-		"wide"				"50"
-		"tall"				"100"
+		"xpos"			"30"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"200"
+		"tall"			"100"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -121,20 +120,44 @@
 			"visible"	"0"
 		}
 	}
+	
 	"ScoutImage"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"ScoutImage"
-		"xpos"			"0"
+		"xpos"			"30"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"50"
+		"wide"			"200"
 		"tall"			"100"
 		"visible"		"1"
+		"Command"		"joinclass scout"
 		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/class/r_scout"
-		"pin_to_sibling" "scout"
+		"image"			"replay/thumbnails/buttons/scout"
+		"image_armed"			"replay/thumbnails/buttons/scout"
+		"image_default"			"replay/thumbnails/buttons/scout"
+		
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"200"
+				"tall"			"100"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/scout"
+				"image_armed"			"replay/thumbnails/buttons/scout"
+				"image_default"			"replay/thumbnails/buttons/scout"
+		}
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "0"
 	}
@@ -143,11 +166,11 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"soldier"
-		"xpos"				"c-175"
-		"ypos"				"r100"
-		"zpos"				"6"
-		"wide"				"50"
-		"tall"				"100"
+		"xpos"				"0"
+		"ypos"				"-100"
+		"zpos"				"2"
+		"wide"				"200"
+		"tall"				"80"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -160,6 +183,7 @@
 		"font"				"FUTURA_BOLD_16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
+		"pin_to_sibling" "scoutimage"		
 		
 
 		"fgcolor"					"ZeesWhite"
@@ -181,21 +205,45 @@
 			"visible"	"0"
 		}
 		
-	}
+	}		
+
 	"SoldierImage"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CExImageButton"
 		"fieldName"		"SoldierImage"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"50"
+		"ypos"			"-90"
+		"zpos"			"2"
+		"wide"			"200"
 		"tall"			"100"
 		"visible"		"1"
+		"Command"		"joinclass soldier"
 		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/class/r_soldier"
-		"pin_to_sibling" "soldier"
+		"image"			"replay/thumbnails/buttons/soldier"
+		"image_armed"			"replay/thumbnails/buttons/soldier"
+		"image_default"			"replay/thumbnails/buttons/soldier"
+		"pin_to_sibling" "scoutimage"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"200"
+				"tall"			"100"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/soldier"
+				"image_armed"			"replay/thumbnails/buttons/soldier"
+				"image_default"			"replay/thumbnails/buttons/soldier"
+		}
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "0"
 	}
@@ -204,11 +252,11 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"pyro"
-		"xpos"				"c-125"
-		"ypos"				"r100"
+		"xpos"				"0"
+		"ypos"				"-185"
 		"zpos"				"6"
-		"wide"				"50"
-		"tall"				"100"
+		"wide"				"200"
+		"tall"				"80"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -221,6 +269,7 @@
 		"font"				"FUTURA_BOLD_16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
+		"pin_to_sibling" "scoutimage"		
 
 		"fgcolor"					"ZeesWhite"
 		"defaultFgColor_override"	"ZeesWhite"
@@ -242,20 +291,44 @@
 		}
 
 	}
-	"PyroImage"
+	
+	"pyroImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PyroImage"
+		"ControlName"	"CExImageButton"
+		"fieldName"		"pyroImage"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"50"
+		"ypos"			"-180"
+		"zpos"			"3"
+		"wide"			"200"
 		"tall"			"100"
 		"visible"		"1"
+		"Command"		"joinclass pyro"
 		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/class/r_pyro"
-		"pin_to_sibling" "pyro"
+		"image"			"replay/thumbnails/buttons/pyro"
+		"image_armed"			"replay/thumbnails/buttons/pyro"
+		"image_default"			"replay/thumbnails/buttons/pyro"
+		"pin_to_sibling" "scoutimage"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"200"
+				"tall"			"100"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/pyro"
+				"image_armed"			"replay/thumbnails/buttons/pyro"
+				"image_default"			"replay/thumbnails/buttons/pyro"
+		}
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "0"
 	}
@@ -264,11 +337,11 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"demoman"
-		"xpos"				"c-75"
-		"ypos"				"r100"
-		"zpos"				"6"
-		"wide"				"50"
-		"tall"				"100"
+		"xpos"				"0"
+		"ypos"				"-280"
+		"zpos"				"4"
+		"wide"				"200"
+		"tall"				"80"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -281,6 +354,7 @@
 		"font"				"FUTURA_BOLD_16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
+		"pin_to_sibling" "scoutimage"				
 		
 
 		"fgcolor"					"ZeesWhite"
@@ -303,20 +377,44 @@
 		}
 	
 	}
-	"DemoImage"
+	
+	"demoImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"DemoImage"
+		"ControlName"	"CExImageButton"
+		"fieldName"		"demoImage"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"50"
+		"ypos"			"-270"
+		"zpos"			"4"
+		"wide"			"200"
 		"tall"			"100"
 		"visible"		"1"
+		"Command"		"joinclass demoman"
 		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/class/r_demo"
-		"pin_to_sibling" "demoman"
+		"image"			"replay/thumbnails/buttons/demo"
+		"image_armed"			"replay/thumbnails/buttons/demo"
+		"image_default"			"replay/thumbnails/buttons/demo"
+		"pin_to_sibling" "scoutimage"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"200"
+				"tall"			"100"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/demo"
+				"image_armed"			"replay/thumbnails/buttons/demo"
+				"image_default"			"replay/thumbnails/buttons/demo"
+		}
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "0"
 	}
@@ -325,11 +423,11 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"heavyweapons"
-		"xpos"				"c-25"
-		"ypos"				"r100"
-		"zpos"				"6"
-		"wide"				"50"
-		"tall"				"100"
+		"xpos"				"0"
+		"ypos"				"-370"
+		"zpos"				"5"
+		"wide"				"200"
+		"tall"				"80"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -342,6 +440,7 @@
 		"font"				"FUTURA_BOLD_16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
+		"pin_to_sibling" "scoutimage"		
 
 
 		"fgcolor"					"ZeesWhite"
@@ -363,20 +462,44 @@
 			"visible"	"0"
 		}
 	}
-	"HeavyImage"
+
+	"heavyImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"HeavyImage"
+		"ControlName"	"CExImageButton"
+		"fieldName"		"heavyImage"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"100"
+		"ypos"			"-360"
+		"zpos"			"5"
+		"wide"			"210"
+		"tall"			"105"
 		"visible"		"1"
+		"Command"		"joinclass heavyweapons"
 		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/class/r_heavy"
-		"pin_to_sibling" "heavyweapons"
+		"image"			"replay/thumbnails/buttons/heavy"
+		"image_armed"			"replay/thumbnails/buttons/heavy"
+		"image_default"			"replay/thumbnails/buttons/heavy"
+		"pin_to_sibling" "scoutimage"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"210"
+				"tall"			"105"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/heavy"
+				"image_armed"			"replay/thumbnails/buttons/heavy"
+				"image_default"			"replay/thumbnails/buttons/heavy"
+		}
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "0"
 	}
@@ -385,11 +508,11 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"engineer"
-		"xpos"				"c25"
-		"ypos"				"r100"
-		"zpos"				"6"
-		"wide"				"50"
-		"tall"				"100"
+		"xpos"				"600"
+		"ypos"				"15"
+		"zpos"				"1"
+		"wide"				"200"
+		"tall"				"80"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -423,20 +546,44 @@
 			"visible"	"0"
 		}
 	}
-	"EngieImage"
+
+	"engiImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"EngieImage"
-		"xpos"			"0"
+		"ControlName"	"CExImageButton"
+		"fieldName"		"engiImage"
+		"xpos"			"600"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"100"
+		"wide"			"240"
+		"tall"			"120"
 		"visible"		"1"
+		"Command"		"joinclass engineer"
 		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/class/r_engie"
-		"pin_to_sibling" "engineer"
+		"image"			"replay/thumbnails/buttons/engi"
+		"image_armed"			"replay/thumbnails/buttons/engi"
+		"image_default"			"replay/thumbnails/buttons/engi"
+	
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"240"
+				"tall"			"120"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/engi"
+				"image_armed"			"replay/thumbnails/buttons/engi"
+				"image_default"			"replay/thumbnails/buttons/engi"
+		}
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "0"
 	}
@@ -445,11 +592,11 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"medic"
-		"xpos"				"c75"
-		"ypos"				"r100"
-		"zpos"				"6"
-		"wide"				"50"
-		"tall"				"100"
+		"xpos"				"0"
+		"ypos"				"-110"
+		"zpos"				"2"
+		"wide"				"240"
+		"tall"				"80"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -462,6 +609,7 @@
 		"font"				"FUTURA_BOLD_16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
+		"pin_to_sibling" "engiimage"		
 
 
 		"fgcolor"					"ZeesWhite"
@@ -483,20 +631,44 @@
 			"visible"	"0"
 		}
 	}
-	"MedicImage"
+	
+	"medicImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MedicImage"
+		"ControlName"	"CExImageButton"
+		"fieldName"		"medicImage"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"100"
+		"ypos"			"-90"
+		"zpos"			"2"
+		"wide"			"240"
+		"tall"			"120"
 		"visible"		"1"
+		"Command"		"joinclass medic"
 		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/class/r_medic"
-		"pin_to_sibling" "medic"
+		"image"			"replay/thumbnails/buttons/medic"
+		"image_armed"			"replay/thumbnails/buttons/medic"
+		"image_default"			"replay/thumbnails/buttons/medic"
+		"pin_to_sibling" "engiimage"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"240"
+				"tall"			"120"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/medic"
+				"image_armed"			"replay/thumbnails/buttons/medic"
+				"image_default"			"replay/thumbnails/buttons/medic"
+		}
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "0"
 	}
@@ -505,11 +677,11 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"sniper"
-		"xpos"				"c125"
-		"ypos"				"r100"
-		"zpos"				"6"
-		"wide"				"50"
-		"tall"				"100"
+		"xpos"				"0"
+		"ypos"				"-200"
+		"zpos"				"3"
+		"wide"				"240"
+		"tall"				"80"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -522,6 +694,7 @@
 		"font"				"FUTURA_BOLD_16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
+		"pin_to_sibling" "engiimage"		
 
 		
 		"fgcolor"					"ZeesWhite"
@@ -543,34 +716,57 @@
 			"visible"	"0"
 		}
 	}
-	"SniperImage"
+
+	"sniperImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SniperImage"
+		"ControlName"	"CExImageButton"
+		"fieldName"		"sniperImage"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"100"
+		"ypos"			"-180"
+		"zpos"			"3"
+		"wide"			"240"
+		"tall"			"120"
 		"visible"		"1"
+		"Command"		"joinclass sniper"
 		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/class/r_sniper"
-		"pin_to_sibling" "sniper"
+		"image"			"replay/thumbnails/buttons/sniper"
+		"image_armed"			"replay/thumbnails/buttons/sniper"
+		"image_default"			"replay/thumbnails/buttons/sniper"
+		"pin_to_sibling" "engiimage"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"240"
+				"tall"			"120"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/sniper"
+				"image_armed"			"replay/thumbnails/buttons/sniper"
+				"image_default"			"replay/thumbnails/buttons/sniper"
+		}
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "0"
-
 	}
 
 	"spy"
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"spy"
-		"xpos"				"c175"
-		"ypos"				"r100"
-		"zpos"				"6"
-		"wide"				"50"
-		"tall"				"100"
+		"xpos"				"0"
+		"ypos"				"-290"
+		"zpos"				"4"
+		"wide"				"240"
+		"tall"				"80"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -583,6 +779,7 @@
 		"font"				"FUTURA_BOLD_16"
 		"scaleImage"		"1"
 		"paintbackground"	"0"
+		"pin_to_sibling" "engiimage"		
 		
 
 		"fgcolor"					"ZeesWhite"
@@ -605,20 +802,44 @@
 		}
 	
 	}
-	"SpyImage"
+
+"spyImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"SpyImage"
+		"ControlName"	"CExImageButton"
+		"fieldName"		"spyImage"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"100"
+		"ypos"			"-270"
+		"zpos"			"4"
+		"wide"			"240"
+		"tall"			"120"
 		"visible"		"1"
+		"Command"		"joinclass spy"
 		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/class/r_spy"
-		"pin_to_sibling" "spy"
+		"image"			"replay/thumbnails/buttons/spy"
+		"image_armed"			"replay/thumbnails/buttons/spy"
+		"image_default"			"replay/thumbnails/buttons/spy"
+		"pin_to_sibling" "engiimage"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"240"
+				"tall"			"120"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/spy"
+				"image_armed"			"replay/thumbnails/buttons/spy"
+				"image_default"			"replay/thumbnails/buttons/spy"
+		}
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "0"
 	}
@@ -627,11 +848,11 @@
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"random"
-		"xpos"				"r100"
-		"ypos"				"r100"
-		"zpos"				"6"
-		"wide"				"50"
-		"tall"				"100"
+		"xpos"				"0"
+		"ypos"				"-380"
+		"zpos"				"5"
+		"wide"				"240"
+		"tall"				"80"
 		"autoResize"		"0"
 		"pinCorner"			"2"
 		"visible"			"1"
@@ -642,6 +863,7 @@
 		"Command"			"joinclass random"
 		"font"				"FUTURA_BOLD_16"
 		"paintbackground"	"0"
+		"pin_to_sibling" "engiimage"		
 
 		"fgcolor"					"ZeesWhite"
 		"defaultFgColor_override"	"ZeesWhite"
@@ -662,86 +884,93 @@
 		}
 		
 	}
-	"RandomImage"
+
+"randomImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RandomImage"
+		"ControlName"	"CExImageButton"
+		"fieldName"		"randomImage"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"50"
-		"tall"			"100"
+		"ypos"			"-360"
+		"zpos"			"5"
+		"wide"			"240"
+		"tall"			"120"
 		"visible"		"1"
+		"Command"		"joinclass random"
 		"enabled"		"1"
+		"paintbackground"	"0"
+		"labelText"			""
 		"scaleImage"	"1"
-		"image"			"replay/thumbnails/class/random"
-		"pin_to_sibling" "random"
+		"image"			"replay/thumbnails/buttons/random"
+		"image_armed"			"replay/thumbnails/buttons/random"
+		"image_default"			"replay/thumbnails/buttons/random"
+		"pin_to_sibling" "engiimage"
+
+		"SubImage"
+		{
+			
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"240"
+				"tall"			"120"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/buttons/random"
+				"image_armed"			"replay/thumbnails/buttons/random"
+				"image_default"			"replay/thumbnails/buttons/random"
+		}
 		"pin_corner_to_sibling" "0"
 		"pin_to_sibling_corner" "0"
 	}
 
-	"CancelButton" [$WIN32]
+
+
+	
+	"CancelButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"10"
-		"ypos"			"431"
+		"xpos"			"c-9005"
+		"ypos"			"r38"
 		"zpos"			"6"
-		"wide"			"140"
-		"tall"			"16"
+		"wide"			"100"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"(&Q)  CANCEL"
-		"textAlignment"	"west"
+		"labelText"		"#TF_ClassMenu_Cancel"
+		"textAlignment"	"center"
 		"Command"		"vguicancel"
-		"font"			"FUTURA_BOLD_24"
-		"paintbackground" "0"
-
-		"fgcolor"					"ZeesWhite"
-		"defaultFgColor_override"	"ZeesWhite"
-		"armedFgColor_override"		"ZeesBlack"
-		"depressedFgColor_override"	"ZeesBlack"
-		"selectedFgColor_override"	"ZeesGreen"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
+		"font"			"HudFontSmallBold"
+		"fgcolor_override" "200 80 60 255"
 	}
-
-	"EditLoadoutButton" [$WIN32]
+	
+	"EditLoadoutButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"10"
-		"ypos"			"450"
+		"xpos"			"c-9995"
+		"ypos"			"r38"
 		"zpos"			"6"
-		"wide"			"140"
-		"tall"			"16"
+		"wide"			"150"
+		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"paintbackground" "0"
-		"labelText"		"(&E)  LOADOUT"
-		"textAlignment"	"west"
+		"labelText"		"#EditLoadout"
+		"textAlignment"	"center"
 		"Command"		"openloadout"
-		"font"			"FUTURA_BOLD_24"
-
-		"fgcolor"					"ZeesWhite"
-		"defaultFgColor_override"	"ZeesWhite"
-		"armedFgColor_override"		"ZeesBlack"
-		"depressedFgColor_override"	"ZeesBlack"
-		"selectedFgColor_override"	"ZeesGreen"
-
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
+		"font"			"pixelbolt10"
 	}
-	"LoadoutButtonBackground"
+
+"LoadoutButtonBackground"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"LoadoutButtonBackground"
@@ -750,7 +979,8 @@
 		"wide"			"20"
 		"tall"			"0"
 	}
-	"ResetButton"
+	
+	"ResetButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ResetButton"
@@ -765,27 +995,50 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#TF_ClassMenu_Reset"
-		"paintbackground""0"
 		"textAlignment"	"center"
 		"Command"		"resetclass"
-		"font"			"FUTURA_BOLD_16"
+		"font"			"HudFontSmallBold"
 	}
 
+	"ClassMenuSelect"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ClassMenuSelect"
+		"xpos"			"9999"
+		"xpos_lodef"			"62"
+		"xpos_hidef"			"72"
+		"ypos"			"r40"
+		"ypos_lodef"			"r60"
+		"ypos_hidef"			"r54"
+		"zpos"			"5"
+		"wide"			"450"
+		"tall"			"30"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"visible_lodef"	"0"
+		"enabled"		"1"
+		"labelText"		"#TF_SelectAClass"
+		"textAlignment"	"west"
+		"font"			"MenuMainTitle"
+		"fgcolor"		"HudOffWhite"
+	}
+	
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"MenuBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"0"
+		"xpos"			"99999"
+		"ypos"			"99999"
+		"zpos"			"0"		
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fov"			"16"
-
+		
 		"model"
 		{
 			"modelname"	"models/vgui/UI_class01.mdl"
@@ -794,585 +1047,24 @@
 			"angles_y" "180"
 			"angles_z" "0"
 			"origin_x" "365"
+			"origin_x_lodef" "415"
+			"origin_x_hidef" "380"
 			"origin_y" "0"
 			"origin_z" "-40"
 		}
-	}
+	}	
 
-	"countImage0" [$WIN32]
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage0"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
-	}
 
-	"countImage1" [$WIN32]
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage1"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
-	}
+	
 
-	"countImage2" [$WIN32]
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage2"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
-	}
-
-	"countImage3" [$WIN32]
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage3"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
-	}
-
-	"countImage4" [$WIN32]
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage4"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
-	}
-
-	"countImage5" [$WIN32]
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage5"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
-	}
-
-	"countImage6" [$WIN32]
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage6"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
-	}
-
-	"countImage7" [$WIN32]
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage7"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
-	}
-
-	"countImage8" [$WIN32]
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage8"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
-	}
-
-	"countImage9" [$WIN32]
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage9"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
-	}
-
-	"countImage10" [$WIN32]
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"countImage10"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"9"
-		"wide"			"30"
-		"tall"			"60"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			""
-		"scaleImage"	"1"
-	}
-
-	"numScout"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"numScout"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"5"
-		"wide"			"30"
-		"tall"			"16"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"%numScout%"
-		"textAlignment"	"center"
-		"font"			"FUTURA_BOLD_24"
-		"fgcolor"		"ZeesWhite"
-		
-		"pin_to_sibling" "scout"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "4"
-	}
-
-	"numSoldier"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"numSoldier"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"5"
-		"wide"			"30"
-		"tall"			"16"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"%numSoldier%"
-		"textAlignment"	"center"
-		"font"			"FUTURA_BOLD_24"
-		"fgcolor"		"ZeesWhite"
-		
-		"pin_to_sibling" "soldier"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "4"
-	}
-
-	"numPyro"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"numPyro"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"5"
-		"wide"			"20"
-		"tall"			"16"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"%numPyro%"
-		"textAlignment"	"center"
-		"font"			"FUTURA_BOLD_24"
-		"fgcolor"		"ZeesWhite"
-		
-		"pin_to_sibling" "pyro"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "4"
-	}
-
-	"numDemoman"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"numDemoman"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"5"
-		"wide"			"30"
-		"tall"			"16"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"%numDemoman%"
-		"textAlignment"	"center"
-		"font"			"FUTURA_BOLD_24"
-		"fgcolor"		"ZeesWhite"
-		
-		"pin_to_sibling" "demoman"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "4"
-	}
-
-	"numHeavy"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"numHeavy"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"5"
-		"wide"			"30"
-		"tall"			"16"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"%numHeavy%"
-		"textAlignment"	"center"
-		"font"			"FUTURA_BOLD_24"
-		"fgcolor"		"ZeesWhite"
-		
-		"pin_to_sibling" "heavyweapons"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "4"
-	}
-
-	"numEngineer"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"numEngineer"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"5"
-		"wide"			"30"
-		"tall"			"16"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"%numEngineer%"
-		"textAlignment"	"center"
-		"font"			"FUTURA_BOLD_24"
-		"fgcolor"		"ZeesWhite"
-		
-		"pin_to_sibling" "engineer"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "4"
-	}
-
-	"numMedic"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"numMedic"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"5"
-		"wide"			"30"
-		"tall"			"16"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"%numMedic%"
-		"textAlignment"	"center"
-		"font"			"FUTURA_BOLD_24"
-		"fgcolor"		"ZeesWhite"
-		
-		"pin_to_sibling" "medic"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "4"
-	}
-
-	"numSniper"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"numSniper"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"5"
-		"wide"			"30"
-		"tall"			"16"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"%numSniper%"
-		"textAlignment"	"center"
-		"font"			"FUTURA_BOLD_24"
-		"fgcolor"		"ZeesWhite"
-		
-		"pin_to_sibling" "sniper"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "4"
-	}
-
-	"numSpy"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"numMedic"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"5"
-		"wide"			"30"
-		"tall"			"16"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"%numSpy%"
-		"textAlignment"	"center"
-		"font"			"FUTURA_BOLD_24"
-		"fgcolor"		"ZeesWhite"
-		
-		"pin_to_sibling" "spy"
-		"pin_corner_to_sibling" "4"
-		"pin_to_sibling_corner" "4"
-	}
-
-	"MvMUpgradeImageScout"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMUpgradeImageScout"
-		"xpos"			"190"
-		"ypos"			"279"
-		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
-	}
-
-	"MvMUpgradeImageSolider"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMUpgradeImageSolider"
-		"xpos"			"190"
-		"ypos"			"295"
-		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
-	}
-
-	"MvMUpgradeImagePyro"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMUpgradeImagePyro"
-		"xpos"			"190"
-		"ypos"			"311"
-		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
-	}
-
-	"MvMUpgradeImageDemoman"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMUpgradeImageDemoman"
-		"xpos"			"190"
-		"ypos"			"331"
-		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
-	}
-
-	"MvMUpgradeImageHeavy"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMUpgradeImageHeavy"
-		"xpos"			"190"
-		"ypos"			"347"
-		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
-	}
-
-	"MvMUpgradeImageEngineer"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMUpgradeImageEngineer"
-		"xpos"			"190"
-		"ypos"			"363"
-		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
-	}
-
-	"MvMUpgradeImageMedic"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMUpgradeImageMedic"
-		"xpos"			"190"
-		"ypos"			"383"
-		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
-	}
-
-	"MvMUpgradeImageSniper"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMUpgradeImageSniper"
-		"xpos"			"190"
-		"ypos"			"399"
-		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
-	}
-
-	"MvMUpgradeImageSpy"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MvMUpgradeImageSpy"
-		"xpos"			"190"
-		"ypos"			"415"
-		"zpos"			"10"
-		"wide"			"10"
-		"tall"			"10"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"mvm/class_upgraded"
-		"scaleImage"	"1"
-	}
-
-	"TFPlayerModel"
-	{
-		"ControlName"	"CTFPlayerModelPanel"
-		"fieldName"		"TFPlayerModel"
-		"xpos"			"30"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"f0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"render_texture" "0"
-		"fov"			"30"
-		"allow_rot"		"0"
-		"paintbackground"	"1"
-		"paintbackgroundenabled" "1"
-		"bgcolor_override" "255 255 255 0"
-
-		"model"
-		{
-			"force_pos"	"1"
-			"angles_x" "0"
-			"angles_y" "170"
-			"angles_z" "0"
-			"origin_x" "270"
-			"origin_y" "0"
-			"origin_z" "-50"
-			"frame_origin_x"	"0"
-			"frame_origin_y"	"0"
-			"frame_origin_z"	"0"
-			"spotlight" "1"
-			"modelname"		""
-		}
-	}
-
-	"ClassTipsPanel"
-	{
-		"ControlName"	"CTFClassTipsPanel"
-		"fieldName"		"ClassTipsPanel"
-		"xpos"			"0"
-		"ypos"			"128"
-		"zpos"			"5"
-		"wide"			"600"
-		"tall"			"380"
-		"visible"		"1"
-		"enabled"		"1"
-		
-	}
-
-	"localPlayerImage" [$WIN32]
+	
+	
+"localPlayerImage" [$WIN32]
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"
 		"xpos"			"9999"
 	}
-
 	"localPlayerBG"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -1380,12 +1072,869 @@
 		"xpos"			"9999"
 	}
 
-//what the fuck is this remotely for???
+	"countImage0" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage0"
+		"xpos"			"999"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+		
+	}							
+	
+	"countImage1" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage1"
+		"xpos"			"999"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage2" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage2"
+		"xpos"			"999"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage3" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage3"
+		"xpos"			"999"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage4" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage4"
+		"xpos"			"999"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage5" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage5"
+		"xpos"			"999"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage6" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage6"
+		"xpos"			"999"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage7" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage7"
+		"xpos"			"999"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage8" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage8"
+		"xpos"			"999"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage9" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage9"
+		"xpos"			"999"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"countImage10" [$WIN32]
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"countImage10"
+		"xpos"			"999"
+		"ypos"			"345"
+		"zpos"			"9"
+		"wide"			"30"
+		"tall"			"60"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""	
+		"scaleImage"	"1"	
+	}
+	
+	"CountLabel" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CountLabel"
+		"xpos"			"999"
+		"ypos"			"402"
+		"zpos"			"10"
+		"wide"			"150"
+		"tall"			"18"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_TeamCount"
+		"textAlignment"	"left"
+		"font"			"HudFontMediumSmallSecondary"
+		"fgcolor"		"TanLight"
+	}
+	
+	"numScout" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numScout"
+		"xpos"			"-190"
+		"ypos"			"-20"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numScout%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "scoutimage"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesWhite"
+	}	
+	"numScout shadow" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numScout shadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numScout%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "numscout"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesBlack"
+	}	
+	
+	"numsoldier" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numsoldier"
+		"xpos"			"-190"
+		"ypos"			"-20"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numSoldier%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "soldierimage"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesWhite"
+	}	
+	"numsoldier shadow" [$WIN32]
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numScout shadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numSoldier%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "numsoldier"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesBlack"
+	}	
+	
+	"numpyro" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numpyro"
+		"xpos"			"-190"
+		"ypos"			"-20"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numpyro%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "pyroimage"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesWhite"
+	}	
+	"numpyro shadow" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numScout shadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numpyro%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "numpyro"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesBlack"
+	}		
+	
+	"numdemo" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numdemo"
+		"xpos"			"-190"
+		"ypos"			"-20"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numdemoman%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "demoimage"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesWhite"
+	}	
+	"numdemo shadow" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numdemo shadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numdemoman%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "numdemo"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesBlack"
+	}	
+	"numHeavy" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numHeavy"
+		"xpos"			"-190"
+		"ypos"			"-20"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numHeavy%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "Heavyimage"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesWhite"
+	}	
+	"numHeavy shadow" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numHeavy shadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numHeavy%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "numHeavy"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesBlack"
+	}	
+	"numengi" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numengi"
+		"xpos"			"50"
+		"ypos"			"-20"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numengineer%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "engiimage"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesWhite"
+	}	
+	"numengi shadow" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numengi shadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numengineer%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "numengi"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesBlack"
+	}					
+	
+	"numMedic" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numMedic"
+		"xpos"			"50"
+		"ypos"			"-20"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numMedic%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "Medicimage"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesWhite"
+	}	
+	"numMedic shadow" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numMedic shadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numMedic%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "numMedic"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesBlack"
+	}							
+	
+	"numSniper" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numSniper"
+		"xpos"			"50"
+		"ypos"			"-20"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numSniper%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "Sniperimage"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesWhite"
+	}	
+	"numSniper shadow" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numSniper shadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numSniper%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "numSniper"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesBlack"
+	}								
+	
+	"numSpy" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numSpy"
+		"xpos"			"50"
+		"ypos"			"-20"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numSpy%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "Spyimage"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesWhite"
+	}	
+	"numSpy shadow" 
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"numSpy shadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"70"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"%numSpy%"
+		"textAlignment"	"center"
+		"pin_to_sibling" "numSpy"
+		"font"			"Cerbetica32"
+		"fgcolor"		"ZeesBlack"
+	}							
+	
+	"MvMUpgradeImageScout"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageScout"
+		"xpos"			"c-270"
+		"ypos"			"30"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImageSolider"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageSolider"
+		"xpos"			"c-220"
+		"ypos"			"30"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImagePyro" 
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImagePyro" 
+		"xpos"			"c-170"
+		"ypos"			"30"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImageDemoman" 
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageDemoman" 
+		"xpos"			"c-80"
+		"ypos"			"30"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImageHeavy"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageHeavy" 
+		"xpos"			"c-30"
+		"ypos"			"30"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImageEngineer"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageEngineer"
+		"xpos"			"c20"
+		"ypos"			"30"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImageMedic"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageMedic"
+		"xpos"			"c108"
+		"ypos"			"30"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImageSniper"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageSniper"
+		"xpos"			"c158"
+		"ypos"			"30"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+	
+	"MvMUpgradeImageSpy"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MvMUpgradeImageSpy"
+		"xpos"			"c208"
+		"ypos"			"30"
+		"zpos"			"10"
+		"wide"			"10"
+		"tall"			"10"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"mvm/class_upgraded"
+		"scaleImage"	"1"
+	}
+
+	"StartExplanation"
+	{
+		"ControlName"	"CExplanationPopup"
+		"fieldName"		"StartExplanation"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"10000"
+		"wide"			"250"
+		"tall"			"165"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground" "0"
+		"border"		"MainMenuHighlightBorder"
+		
+		"force_close"	"1"
+		"end_x"			"c-170"
+		"end_y"			"115"
+		"end_wide"		"300"
+		"end_tall"		"240"
+		"callout_inparents_x"	"c-270"
+		"callout_inparents_y"	"40"
+		"next_explanation"		"VoucherExplanation"
+		
+		"TitleLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleLabel"
+			"font"			"HudFontSmallBold"
+			"labelText"		"#TF_MvM_UpgradeExplanation_Title"
+			"textAlignment"	"north"
+			"xpos"			"20"
+			"ypos"			"10"
+			"wide"			"260"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"wrap"			"1"
+			"fgcolor_override" "46 43 42 255"
+		}
+		
+		"TextLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TextLabel"
+			"font"			"HudFontSmall"
+			"labelText"		"#TF_MvM_UpgradeExplanation_Text"
+			"textAlignment"	"north-west"
+			"xpos"			"20"
+			"ypos"			"45"
+			"wide"			"260"
+			"tall"			"170"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"wrap"			"1"
+			"fgcolor_override" "46 43 42 255"
+		}
+		
+		"CloseButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"CloseButton"
+			"xpos"			"280"
+			"ypos"			"5"
+			"zpos"			"10"
+			"wide"			"14"
+			"tall"			"14"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labeltext"		""
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"Command"		"close"
+			
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "46 43 42 255"
+			"armedFgColor_override" "200 80 60 255"
+			"depressedFgColor_override" "46 43 42 255"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"200 80 60 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"close_button"
+				"scaleImage"	"1"
+			}				
+		}
+	}
+	
+	"TFPlayerModel"
+	{
+		"ControlName"	"CTFPlayerModelPanel"
+		"fieldName"		"TFPlayerModel"
+		
+		"xpos"			"250"
+		"ypos"			"-20"
+		"zpos"			"6"		
+		"wide"			"480"
+		"tall"			"480"
+		
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"render_texture"	"0"
+		"fov"			"25"
+		"allow_rot"		"0"
+
+		"paintbackground" "1"		
+		"paintbackgroundenabled" "1"
+		"bgcolor_override" "255 255 255 0"
+		
+		"model"
+		{
+			"force_pos"	"1"
+
+			"angles_x" "0"
+			"angles_y" "180"
+			"angles_z" "0"
+			"origin_x" "260"
+			"origin_y" "10"
+			"origin_z" "-49"
+			"frame_origin_x"	"0"
+			"frame_origin_y"	"0"
+			"frame_origin_z"	"0"
+			"spotlight" "1"
+		
+			"modelname"		""
+			"vcd"		"class_select.vcd"
+		}
+	}
+	
+	"ClassTipsPanel"
+	{
+		"ControlName"	"CTFClassTipsPanel"
+		"fieldName"		"ClassTipsPanel"
+		"xpos"			"c28"
+		"ypos"			"c-84"
+		"zpos"			"7"
+		"wide"			"235"
+		"tall"			"165"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"tabPosition"	"0"
+	}
+	
 	"ClassHighlightPanel"
 	{
 		"ControlName"	"CExplanationPopup"
 		"fieldName"		"ClassHighlightPanel"
-		"xpos"			"c-75"
+		"xpos"			"c-70"
 		"ypos"			"280"
 		"zpos"			"100"
 		"wide"			"250"
@@ -1394,6 +1943,7 @@
 		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
+		
 		"start_x"		"c-238"
 		"start_y"		"100"
 		"start_wide"	"1"
@@ -1404,7 +1954,7 @@
 		"end_tall"		"150"
 		"callout_inparents_x"	"c-210"
 		"callout_inparents_y"	"437"
-
+		
 		"TitleLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -1423,7 +1973,7 @@
 			"wrap"			"1"
 			"fgcolor_override" "46 43 42 255"
 		}
-
+		
 		"ClassHighlightText"
 		{
 			"ControlName"	"CExLabel"
@@ -1440,9 +1990,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "46 43 42 0"
+			"fgcolor_override" "46 43 42 255"
 		}
-	
 		
 		"CloseButton"
 		{
@@ -1450,7 +1999,7 @@
 			"fieldName"		"CloseButton"
 			"xpos"			"255"
 			"ypos"			"5"
-			"zpos"			"20"
+			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
 			"autoResize"	"0"
@@ -1467,12 +2016,13 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
+			
 			"paintbackground"	"0"
-
+			
 			"defaultFgColor_override" "46 43 42 255"
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "46 43 42 255"
-
+			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
@@ -1486,9 +2036,9 @@
 				"tall"			"14"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"replay/thumbnails/close"
+				"image"			"close_button"
 				"scaleImage"	"1"
-			}
+			}				
 		}
-	}
+	}		
 }
