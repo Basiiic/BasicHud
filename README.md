@@ -13,12 +13,9 @@ Hud Showcase Video (Slightly Outdated):
 
 - please install all fonts inside of resource/scheme/fonts if hud elements have broken text
 
-# ISSUES I KNOW ABOUT CURRENTLY
-
-- demo loadout icon
-- casual map vote cant be brought back up
-
 # HUD CREDITS (THANK YOU <3)
+
+[Sog (Squishy)](https://x.com/Squishy_Snail) - borzoi character seen in customizations and basic.cfg
 
 [M0rehud Hypnotize (Hypnootize)](https://github.com/Hypnootize/hypnotize-m0rehud) - base hud used
 
