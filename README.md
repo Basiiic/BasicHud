@@ -9,17 +9,14 @@ Hud Showcase Video (Slightly Outdated):
 
 # THINGS YOU SHOULD KNOW
 
-- if your hud/assets are in here and you dont want it in this just lmk somewhere and i'll take it out :steamhappy:
-
 - only tested on windows 10 and 11, 1920 x 1080. other resolutions and OS's are unsupported if they dont work
 
 - please install all fonts inside of resource/scheme/fonts if hud elements have broken text
 
-- please put cl_software_cursor 1 into your autoexec to enable software cursors <3
-
 # ISSUES I KNOW ABOUT CURRENTLY
 
-- none
+- demo loadout icon
+- casual map vote cant be brought back up
 
 # HUD CREDITS (THANK YOU <3)
 
