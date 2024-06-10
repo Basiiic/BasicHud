@@ -9,7 +9,7 @@ Hud Showcase Video (Slightly Outdated):
 
 # THINGS YOU SHOULD KNOW
 
-- only tested on windows 10 and 11, 1920 x 1080. other resolutions and OS's are unsupported if they dont work
+- only tested on windows 10 and 11, 16:9 works, any other res is unsupported.
 
 - please install all fonts inside of resource/scheme/fonts if hud elements have broken text
 
