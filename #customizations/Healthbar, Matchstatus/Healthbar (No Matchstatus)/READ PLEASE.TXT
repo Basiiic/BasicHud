@@ -1,0 +1,5 @@
+this breaks the matchstatus at the top of the screen, so you wont see teamstatus
+
+please make sure you pick the option that matches the healt/ammo position customization you chose
+
+also the bar doesnt show on tunnelvison specificly
