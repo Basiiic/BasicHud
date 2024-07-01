@@ -27,6 +27,8 @@ Hud Showcase Video (Slightly Outdated):
 
 [Skyhud (skai)](https://github.com/skaiTF/skyhud/) - scoreboard, sourcescheme
 
+[Sloofy's Overhauled UI Portraits (SOUP)](https://gamebanana.com/mods/26400) - custom playerclass images
+
 [GoogHud (GreySux)](https://github.com/GreySux/googhud/tree/main) - Killstreak icon
 
 [Middle Mann Hud (Vexcenot)](https://gamebanana.com/mods/445578) - hudplayerclass
