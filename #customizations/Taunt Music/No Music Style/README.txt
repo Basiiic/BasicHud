@@ -1,1 +1,0 @@
-This option removes all the music from every taunt i could find, while keeping voices and sound effects. This was made because i prefer to listen to music while playing tf2 lol

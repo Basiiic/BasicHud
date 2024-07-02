@@ -9,9 +9,9 @@ Hud Showcase Video (Slightly Outdated):
 
 # THINGS YOU SHOULD KNOW
 
-- only tested on windows 10 and 11, 16:9 works, any other res is unsupported.
+- only tested on windows 10 and 11, only 16:9 resolutions work from my testing
 
-- please install all fonts inside of resource/scheme/fonts if hud elements have broken text
+- please install all fonts inside of resource/scheme/fonts
 
 # HUD CREDITS (THANK YOU <3)
 
@@ -27,6 +27,8 @@ Hud Showcase Video (Slightly Outdated):
 
 [Skyhud (skai)](https://github.com/skaiTF/skyhud/) - scoreboard, sourcescheme
 
+[Sloofy's Overhauled UI Portraits (SOUP)](https://gamebanana.com/mods/26400) - custom playerclass images
+
 [GoogHud (GreySux)](https://github.com/GreySux/googhud/tree/main) - Killstreak icon
 
 [Middle Mann Hud (Vexcenot)](https://gamebanana.com/mods/445578) - hudplayerclass
@@ -39,11 +41,9 @@ Hud Showcase Video (Slightly Outdated):
 
 [Zeeshud Deluxe (Zeesatrous)](https://mega.nz/file/zQZGBADB#RrNJ-NAaE7JYJ9UsTLSrA0AaU5BD-EBB6q0ElVwAcCw) - alt hudplayerclass
 
-[Lupin III SoundPack (sosigmidgetsosig)](https://gamebanana.com/sounds/68066) - Music for certain things (win, lose, vote, etc)
+[Lupin III SoundPack (sosigmidgetsosig)](https://gamebanana.com/sounds/68066) - class select music
 
 [sv_pure 1 sound utility script (fayesdiary)](https://gamebanana.com/mods/36640) - Helped me figure out how to play certain audio on valve servers
-
-[Bibata Cursor (ful1e5)](https://www.bibata.live/) - Software Cursor
 
 Persona 5 UI Sounds (Atlus) - ui sounds
 
