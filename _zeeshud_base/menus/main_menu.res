@@ -305,7 +305,26 @@
 			}
 		}
 	}
+	"AvataringSlot"
+	{
+		"ControlName"	"CDashboardPartyMember"
+		"fieldName"		"AvataringSlot"
+		"xpos"			"0"
+		"ypos"			"r54"
+		"zpos"			"100"
+		"wide"			"55"
+		"tall"			"55"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"proportionaltoparent"	"0"
+		"mouseinputenabled"	"0"
+		"keyboardinputenabled"	"0"
 
+		"party_slot"	"0"
+	}
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -397,7 +416,7 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankModelPanel"
-		"xpos"			"80"
+		"xpos"			"115"
 		"ypos"			"r425"
 		"zpos"			"1"
 		"wide"			"170"
@@ -433,9 +452,9 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CycleRankTypeButton"
-		"xpos"			"200"
+		"xpos"			"220"
 		"ypos"			"r22"
-		"zpos"			"1"
+		"zpos"			"-9999"
 		"wide"			"15"
 		"tall"			"15"
 		"autoResize"	"0"
@@ -505,7 +524,7 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"-25"
+		"xpos"			"25"
 		"ypos"			"r55"
 		"zpos"			"1"
 		"wide"			"140"
