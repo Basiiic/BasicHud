@@ -1,6 +1,20 @@
 "resource\ui\HudPlayerClass.res"
 {
 	// Player Class Data
+	"Creature"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Creature"
+		"xpos"			"70"
+		"ypos"			"r44"
+		"zpos"			"5"
+		"wide"			"44"
+		"tall"			"44"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../creature"
+		"scaleImage"	"1"	
+	}	
 	"HudPlayerClass"
 	{
 		"ControlName"	"EditablePanel"
