@@ -156,6 +156,12 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
+
+	"popup_pinner"
+	{
+		"ControlName"    "Panel"
+		"ypos"			"-15"
+	}
 		
 	"ParticlePanel"
 	{
