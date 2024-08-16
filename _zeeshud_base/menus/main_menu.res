@@ -160,7 +160,7 @@
 	"popup_pinner"
 	{
 		"ControlName"    "Panel"
-		"ypos"			"-15"
+		"ypos"			"-5"
 	}
 		
 	"ParticlePanel"
