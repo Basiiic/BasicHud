@@ -547,7 +547,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"NoGCMessage"
-		"xpos"			"0"
+		"xpos"			"25"
 		"ypos"			"r55"
 		"zpos"			"99"
 		"wide"			"260"
@@ -570,8 +570,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"NoGCImage"
-		"xpos"			"220"
-		"ypos"			"r50"
+		"xpos"			"185"
+		"ypos"			"r35"
 		"zpos"			"99"
 		"wide"			"30"
 		"tall"			"30"
