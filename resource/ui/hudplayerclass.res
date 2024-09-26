@@ -1,6 +1,20 @@
 "resource\ui\HudPlayerClass.res"
 {
 	// Player Class Data
+	"Creature"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"Creature"
+		"xpos"			"150"
+		"ypos"			"r60"
+		"zpos"			"5"
+		"wide"			"63"
+		"tall"			"85"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../creature"
+		"scaleImage"	"1"	
+	}
 	"HudPlayerClass"
 	{
 		"ControlName"	"EditablePanel"
@@ -155,7 +169,7 @@
 				"angles_y"		"210"
 				"angles_z"		"-5"
 				"origin_x"		"140"
-				"origin_y"		"10"
+				"origin_y"		"20"
 				"origin_z"		"-60"
 			}
 			"Sniper"
@@ -165,7 +179,7 @@
 				"angles_y"		"210"
 				"angles_z"		"-2"
 				"origin_x"		"120"
-				"origin_y"		"3"
+				"origin_y"		"13"
 				"origin_z"		"-70"
 			}
 			"Soldier"
@@ -175,7 +189,7 @@
 				"angles_y"		"190"
 				"angles_z"		"-2"
 				"origin_x"		"140"
-				"origin_y"		"5"
+				"origin_y"		"15"
 				"origin_z"		"-68"
 			}
 			"Demoman"
@@ -185,7 +199,7 @@
 				"angles_y"		"200"
 				"angles_z"		"0"
 				"origin_x"		"140"
-				"origin_y"		"5"
+				"origin_y"		"15"
 				"origin_z"		"-70"
 			}
 			"Medic"
@@ -195,7 +209,7 @@
 				"angles_y"		"200"
 				"angles_z"		"0"
 				"origin_x"		"140"
-				"origin_y"		"3"
+				"origin_y"		"13"
 				"origin_z"		"-70"
 			}
 			"Heavy"
@@ -205,7 +219,7 @@
 				"angles_y"		"210"
 				"angles_z"		"-2"
 				"origin_x"		"150"
-				"origin_y"		"3"
+				"origin_y"		"13"
 				"origin_z"		"-75"
 			}
 			"Pyro"
@@ -215,7 +229,7 @@
 				"angles_y"		"210"
 				"angles_z"		"-5"
 				"origin_x"		"140"
-				"origin_y"		"12"
+				"origin_y"		"22"
 				"origin_z"		"-69"
 			}
 			"Spy"
@@ -225,7 +239,7 @@
 				"angles_y"		"200"
 				"angles_z"		"-2"
 				"origin_x"		"120"
-				"origin_y"		"3"
+				"origin_y"		"13"
 				"origin_z"		"-70"
 			}
 			"Engineer"
@@ -235,7 +249,7 @@
 				"angles_y"		"200"
 				"angles_z"		"-2"
 				"origin_x"		"140"
-				"origin_y"		"5"
+				"origin_y"		"15"
 				"origin_z"		"-62"
 			}
 		}

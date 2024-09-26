@@ -15,8 +15,8 @@
 	"HudKothTimeStatus"
 	{
 		"xpos"										"cs-0.5"
-		"ypos"										"0"
-		"wide"										"84"
+		"ypos"										"r47"
+		"wide"										"104"
 		"tall"										"40"
 
 		"blue_active_xpos"							"0"
