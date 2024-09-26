@@ -25,10 +25,10 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthAnchor"
-		"xpos"										"c-342"
-		"xpos_minmode"								"c-40"
-		"ypos"										"c130"
-		"ypos_minmode"								"c26"
+		"xpos"										"c-350"
+		"xpos_minmode"								"c-0.5"
+		"ypos"										"c165"
+		"ypos_minmode"								"c-5"
 		"zpos"										"0"
 		"wide"										"2"
 		"tall"										"80"
@@ -81,7 +81,7 @@
 		"labelText" 		         				"%Health%"
 		"textAlignment"         				 	"center"
 		"font"                   				 	"m0refont72"
-		"font_minmode"                   			"m0refont32"
+		"font_minmode"                   			"m0refont22"
 		"fgcolor"	    	         				"Health Numbers"
 
 		"pin_to_sibling"							"HealthAnchor"
@@ -104,7 +104,7 @@
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"
 		"font"                   				 	"m0refont72"
-		"font_minmode"                   			"m0refont32"
+		"font_minmode"                   			"m0refont22"
 		"fgcolor"	     	         				"Black"
 
 		"pin_to_sibling"							"PlayerStatusHealthValue"
@@ -125,7 +125,7 @@
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"
 		"font"                   				 	"m0refont72"
-		"font_minmode"                   			"m0refont32"
+		"font_minmode"                   			"m0refont22"
 		"fgcolor"	     	         				"Extra Shadow"
 		"alpha"	     	         					"0"
 
