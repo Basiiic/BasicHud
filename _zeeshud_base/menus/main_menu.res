@@ -2030,6 +2030,52 @@
 		"pin_to_sibling_corner" "PIN_TOPLEFT"
 		
 	}
+
+	"CreateServerButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CreateServerButton"
+		"xpos"		"-115"
+		"ypos"		"-130"
+		
+		"zpos"		"3"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"font"		"FUTURA_BOLD_16"
+		"labeltext"		" "
+		"paintbackground"	"0"
+		"command"		"OpenCreateMultiplayerGameDialog"
+		"font"			"HudFontSmallishBold"
+		"textAlignment"	"west"
+		"textinsetx"	"25"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+
+		"image_default"		"replay/thumbnails/menu/button_plus"
+		"image_armed"		"replay/thumbnails/menu/button_plus_s"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"replay/thumbnails/menu/button_plus"
+			}
+			
+			"pin_to_sibling" "ButtonAnchor"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		
+	}
 	
 	"SteamWorkshopButton"
 	{
@@ -4893,6 +4939,153 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_spyblue_halfcloak"
+				"scaleImage"	"1"
+			}	
+		}		
+	}
+
+	"cpcapblu"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"cpcapblu"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"11"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"0"
+			"tall"			"0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"0"
+			"enabled"		"0"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets" "1"
+			"font"			"VersionFont"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"9999"
+				"ypos"			"9999"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../sprites/obj_icons/icon_obj_cap_blu"
+				"scaleImage"	"1"
+			}	
+		}		
+	}
+
+	"cpcapred"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"cpcapred"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"11"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"0"
+			"tall"			"0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"0"
+			"enabled"		"0"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets" "1"
+			"font"			"VersionFont"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"9999"
+				"ypos"			"9999"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../sprites/obj_icons/icon_obj_cap_red"
+				"scaleImage"	"1"
+			}	
+		}		
+	}
+
+	"cpcapmask"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"cpcapmask"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"11"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"0"
+			"tall"			"0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"0"
+			"enabled"		"0"
+			"tabPosition"	"0"
+			"textinsetx"	"0"
+			"use_proportional_insets" "1"
+			"font"			"VersionFont"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"9999"
+				"ypos"			"9999"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../sprites/obj_icons/icon_obj_cap_mask"
 				"scaleImage"	"1"
 			}	
 		}		
