@@ -41,4 +41,15 @@
 		"wide"			"f0"
 		"tall"			"156"
 	}
+	"HudScope"
+	{
+		"fieldName" 								"HudScope"
+		"visible" 									"1"
+		"enabled" 									"1"
+		"wide"	 									"640"
+		"tall"	 									"480"
+		"pin_to_sibling" "hudcrosshair"
+        	"pin_corner_to_sibling" "PIN_BOTTOMRIGHT"
+        	"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
 }
