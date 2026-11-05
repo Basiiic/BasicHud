@@ -17,6 +17,8 @@ Hud Showcase Video (Outdated a bit):
 
 [Sog (Squishy)](https://x.com/Squishy_Snail) - borzoi character seen in customizations and basic.cfg
 
+[BAYACHAO](https://x.com/BAYACHAO/) - Devilun/Debirun character seen in customizations
+
 [M0rehud Hypnotize (Hypnootize)](https://github.com/Hypnootize/hypnotize-m0rehud) - base hud used
 
 [M0re-Techno (TechnoSL)](https://github.com/TechnoSL/m0re_techno) - tf2 icon, some fonts in customization, TF_English
